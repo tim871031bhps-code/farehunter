@@ -9,32 +9,43 @@ defaults:
   pause_seconds: 0.6
 
 routes:
-  # 東京 (成田 NRT / 羽田 HND)
+  # 1. 東京成田 (TPE -> NRT)
   - origin: TPE
     destination: NRT
-    absolute_threshold: 8000    # 低於此台幣金額即發送警報
+    absolute_threshold: 8000
 
+  # 2. 東京羽田 (TPE -> HND)
   - origin: TPE
     destination: HND
     absolute_threshold: 9500
 
-  # 福岡 (FUK)
+  # 3. 大阪關西 (TPE -> KIX)
+  - origin: TPE
+    destination: KIX
+    absolute_threshold: 8500
+
+  # 4. 福岡 (TPE -> FUK)
   - origin: TPE
     destination: FUK
     absolute_threshold: 8500
 
-  # 熊本 (KMJ)
+  # 5. 熊本 (TPE -> KMJ)
   - origin: TPE
     destination: KMJ
     absolute_threshold: 9000
 
-  # 高松 (TAK)
+  # 6. 高松 (TPE -> TAK)
   - origin: TPE
     destination: TAK
     absolute_threshold: 8500
 
-  # 青森 (AOJ) — 注意：轉機說明請見下方提醒
+  # 7. 青森 (TPE -> AOJ)
   - origin: TPE
     destination: AOJ
     absolute_threshold: 12000
-    non_stop: false             # 青森多數無直飛或僅季節性包機，需設為 false 才能抓到轉機票
+    non_stop: false
+
+  # 8. 高雄出發-福岡 (KHH -> FUK)
+  - origin: KHH
+    destination: FUK
+    absolute_threshold: 9000
