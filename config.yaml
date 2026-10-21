@@ -2,7 +2,7 @@
 defaults:
   currency: twd
   months_ahead: 10          # 監控當月起共 10 個月
-  one_way: false            # false = 來回票價
+  one_way: false            # 來回票價
   non_stop: true            # 直飛航線
   drop_pct: 25              # 低於中位數 25% 觸發
   min_history: 30           # 累積 30 筆觀察後才啟用統計規則
@@ -12,40 +12,41 @@ routes:
   # 1. 東京成田 (TPE -> NRT)
   - origin: TPE
     destination: NRT
-    absolute_threshold: 8000
+    absolute_threshold: 13000
 
   # 2. 東京羽田 (TPE -> HND)
   - origin: TPE
     destination: HND
-    absolute_threshold: 9500
+    absolute_threshold: 13000
 
-  # 3. 大阪關西 (TPE -> KIX)
+  # 3. 名古屋 (TPE -> NGO)
+  - origin: TPE
+    destination: NGO
+    absolute_threshold: 13000
+
+  # 4. 大阪關西 (TPE -> KIX)
   - origin: TPE
     destination: KIX
-    absolute_threshold: 8500
+    absolute_threshold: 13000
 
-  # 4. 福岡 (TPE -> FUK)
+  # 5. 福岡 (TPE -> FUK)
   - origin: TPE
     destination: FUK
-    absolute_threshold: 8500
+    absolute_threshold: 12000
 
-  # 5. 熊本 (TPE -> KMJ)
+  # 6. 熊本 (TPE -> KMJ)
   - origin: TPE
     destination: KMJ
-    absolute_threshold: 9000
+    absolute_threshold: 11000
 
-  # 6. 高松 (TPE -> TAK)
+  # 7. 高松 (TPE -> TAK)
   - origin: TPE
     destination: TAK
-    absolute_threshold: 8500
+    absolute_threshold: 12000
 
-  # 7. 青森 (TPE -> AOJ)
+  # 8. 青森 (TPE -> AOJ)
   - origin: TPE
     destination: AOJ
-    absolute_threshold: 12000
-    non_stop: false
+    absolute_threshold: 14000
+    non_stop: false             # 青森允許轉機
 
-  # 8. 高雄出發-福岡 (KHH -> FUK)
-  - origin: KHH
-    destination: FUK
-    absolute_threshold: 9000
