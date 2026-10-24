@@ -1,7 +1,7 @@
 {
  "schema": "fie-v2",
  "engine": "recommendation-engine-v1",
- "generated_at": "2026-10-23T22:06:20+00:00",
+ "generated_at": "2026-10-24T00:37:03+00:00",
  "weights": {
   "price": 0.35000000000000003,
   "duration": 0.15000000000000002,
@@ -22,7 +22,7 @@
     "n": 3096
    },
    "best_option": {
-    "price": 11097.0,
+    "price": 15149.0,
     "currency": "TWD",
     "route": "KHH-CTS",
     "source": "google",
@@ -33,40 +33,40 @@
     ],
     "departure_time": null,
     "arrival_time": null,
-    "depart_date": "2026-11-13",
-    "return_date": "2026-11-18",
-    "observed_at": "2026-10-20T11:24:29+00:00",
+    "depart_date": "2026-11-27",
+    "return_date": "2026-12-02",
+    "observed_at": "2026-10-16T11:13:29+00:00",
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8907,
+    "score": 0.8378,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.55,
-     "freshness": 0.7785,
+     "freshness": 0.5141,
      "reliability": 0.8
     },
-    "decision_score": 92,
+    "decision_score": 80,
     "subscores": {
-     "price": 98,
-     "freshness": 78,
+     "price": 79,
+     "freshness": 51,
      "duration": 100,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 90
     },
-    "stars": 5,
+    "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 47%，屬近期低點（價格 98）、直飛、飛行 3h55m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 92、信心 High。",
+    "explanation": "比中位價便宜 28%，屬近期低點（價格 79）、直飛、飛行 3h55m（時間 100）、資料7 天前由 Google Flights (SerpAPI) 更新（新鮮度 51、來源可信度 80）。綜合決策分 80、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
      "provider": "serpapi",
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-10-20T11:24:29+00:00",
-     "observed_age": "3 天前",
+     "depart_date": "2026-11-27",
+     "return_date": "2026-12-02",
+     "observed_at": "2026-10-16T11:13:29+00:00",
+     "observed_age": "7 天前",
      "ranking_rule": "FIE v1 · BEST · 綜合最高分",
      "weights": {
       "price": 0.4,
@@ -75,11 +75,11 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
-    "price": 11097.0,
+    "price": 15149.0,
     "currency": "TWD",
     "route": "KHH-CTS",
     "source": "google",
@@ -90,40 +90,40 @@
     ],
     "departure_time": null,
     "arrival_time": null,
-    "depart_date": "2026-11-13",
-    "return_date": "2026-11-18",
-    "observed_at": "2026-10-20T11:24:29+00:00",
+    "depart_date": "2026-11-27",
+    "return_date": "2026-12-02",
+    "observed_at": "2026-10-16T11:13:29+00:00",
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8907,
+    "score": 0.8378,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.55,
-     "freshness": 0.7785,
+     "freshness": 0.5141,
      "reliability": 0.8
     },
-    "decision_score": 92,
+    "decision_score": 80,
     "subscores": {
-     "price": 98,
-     "freshness": 78,
+     "price": 79,
+     "freshness": 51,
      "duration": 100,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 90
     },
-    "stars": 5,
+    "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 47%，屬近期低點（價格 98）、直飛、飛行 3h55m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 92、信心 High。",
+    "explanation": "比中位價便宜 28%，屬近期低點（價格 79）、直飛、飛行 3h55m（時間 100）、資料7 天前由 Google Flights (SerpAPI) 更新（新鮮度 51、來源可信度 80）。綜合決策分 80、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
      "provider": "serpapi",
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-10-20T11:24:29+00:00",
-     "observed_age": "3 天前",
+     "depart_date": "2026-11-27",
+     "return_date": "2026-12-02",
+     "observed_at": "2026-10-16T11:13:29+00:00",
+     "observed_age": "7 天前",
      "ranking_rule": "FIE v1 · VALUE · 高CP值",
      "weights": {
       "price": 0.4,
@@ -132,11 +132,11 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": {
-    "price": 11097.0,
+    "price": 15149.0,
     "currency": "TWD",
     "route": "KHH-CTS",
     "source": "google",
@@ -147,40 +147,40 @@
     ],
     "departure_time": null,
     "arrival_time": null,
-    "depart_date": "2026-11-13",
-    "return_date": "2026-11-18",
-    "observed_at": "2026-10-20T11:24:29+00:00",
+    "depart_date": "2026-11-27",
+    "return_date": "2026-12-02",
+    "observed_at": "2026-10-16T11:13:29+00:00",
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8907,
+    "score": 0.8378,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.55,
-     "freshness": 0.7785,
+     "freshness": 0.5141,
      "reliability": 0.8
     },
-    "decision_score": 92,
+    "decision_score": 80,
     "subscores": {
-     "price": 98,
-     "freshness": 78,
+     "price": 79,
+     "freshness": 51,
      "duration": 100,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 90
     },
-    "stars": 5,
+    "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 47%，屬近期低點（價格 98）、直飛、飛行 3h55m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 92、信心 High。",
+    "explanation": "比中位價便宜 28%，屬近期低點（價格 79）、直飛、飛行 3h55m（時間 100）、資料7 天前由 Google Flights (SerpAPI) 更新（新鮮度 51、來源可信度 80）。綜合決策分 80、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
      "provider": "serpapi",
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-10-20T11:24:29+00:00",
-     "observed_age": "3 天前",
+     "depart_date": "2026-11-27",
+     "return_date": "2026-12-02",
+     "observed_at": "2026-10-16T11:13:29+00:00",
+     "observed_age": "7 天前",
      "ranking_rule": "FIE v1 · FASTEST · 飛行時間最短",
      "weights": {
       "price": 0.4,
@@ -189,11 +189,11 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "cheapest_option": {
-    "price": 11097.0,
+    "price": 15149.0,
     "currency": "TWD",
     "route": "KHH-CTS",
     "source": "google",
@@ -204,40 +204,40 @@
     ],
     "departure_time": null,
     "arrival_time": null,
-    "depart_date": "2026-11-13",
-    "return_date": "2026-11-18",
-    "observed_at": "2026-10-20T11:24:29+00:00",
+    "depart_date": "2026-11-27",
+    "return_date": "2026-12-02",
+    "observed_at": "2026-10-16T11:13:29+00:00",
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8907,
+    "score": 0.8378,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.55,
-     "freshness": 0.7785,
+     "freshness": 0.5141,
      "reliability": 0.8
     },
-    "decision_score": 92,
+    "decision_score": 80,
     "subscores": {
-     "price": 98,
-     "freshness": 78,
+     "price": 79,
+     "freshness": 51,
      "duration": 100,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 90
     },
-    "stars": 5,
+    "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 47%，屬近期低點（價格 98）、直飛、飛行 3h55m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 92、信心 High。",
+    "explanation": "比中位價便宜 28%，屬近期低點（價格 79）、直飛、飛行 3h55m（時間 100）、資料7 天前由 Google Flights (SerpAPI) 更新（新鮮度 51、來源可信度 80）。綜合決策分 80、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
      "provider": "serpapi",
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-10-20T11:24:29+00:00",
-     "observed_age": "3 天前",
+     "depart_date": "2026-11-27",
+     "return_date": "2026-12-02",
+     "observed_at": "2026-10-16T11:13:29+00:00",
+     "observed_age": "7 天前",
      "ranking_rule": "FIE v1 · CHEAPEST · 價格最低",
      "weights": {
       "price": 0.4,
@@ -246,41 +246,10 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
-    {
-     "price": 11097.0,
-     "currency": "TWD",
-     "route": "KHH-CTS",
-     "source": "google",
-     "stops": 0,
-     "duration": 235,
-     "airline": [
-      "SL"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-10-20T11:24:29+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.8907,
-     "score_components": {
-      "price": 1.0,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.55,
-      "freshness": 0.7785,
-      "reliability": 0.8
-     },
-     "decision_score": 92,
-     "stars": 5,
-     "confidence": "High"
-    },
     {
      "price": 15149.0,
      "currency": "TWD",
@@ -299,13 +268,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.788,
+     "score": 0.8378,
      "score_components": {
-      "price": 0.8538,
+      "price": 1.0,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.55,
-      "freshness": 0.5209,
+      "freshness": 0.5141,
       "reliability": 0.8
      },
      "decision_score": 80,
@@ -330,9 +299,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6852,
+     "score": 0.7332,
      "score_components": {
-      "price": 0.8005,
+      "price": 0.9376,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.55,
@@ -361,9 +330,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6475,
+     "score": 0.6891,
      "score_components": {
-      "price": 0.693,
+      "price": 0.8117,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.55,
@@ -392,9 +361,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6418,
+     "score": 0.6824,
      "score_components": {
-      "price": 0.6767,
+      "price": 0.7926,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.55,
@@ -423,13 +392,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6895,
+     "score": 0.7157,
      "score_components": {
-      "price": 0.4595,
+      "price": 0.5382,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.55,
-      "freshness": 0.7183,
+      "freshness": 0.7116,
       "reliability": 0.8
      },
      "decision_score": 62,
@@ -454,9 +423,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6298,
+     "score": 0.6683,
      "score_components": {
-      "price": 0.6424,
+      "price": 0.7524,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.55,
@@ -483,9 +452,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.6172,
+     "score": 0.6672,
      "score_components": {
-      "price": 0.8347,
+      "price": 0.9776,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -512,9 +481,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.607,
+     "score": 0.6553,
      "score_components": {
-      "price": 0.8059,
+      "price": 0.9438,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -541,9 +510,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5995,
+     "score": 0.6465,
      "score_components": {
-      "price": 0.7843,
+      "price": 0.9186,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -570,9 +539,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5969,
+     "score": 0.6435,
      "score_components": {
-      "price": 0.777,
+      "price": 0.91,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -599,9 +568,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5969,
+     "score": 0.6435,
      "score_components": {
-      "price": 0.777,
+      "price": 0.91,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -628,9 +597,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5831,
+     "score": 0.6273,
      "score_components": {
-      "price": 0.7374,
+      "price": 0.8637,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -657,9 +626,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.575,
+     "score": 0.6179,
      "score_components": {
-      "price": 0.7144,
+      "price": 0.8368,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -688,9 +657,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.527,
+     "score": 0.5736,
      "score_components": {
-      "price": 0.7772,
+      "price": 0.9103,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.55,
@@ -719,9 +688,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5735,
+     "score": 0.6195,
      "score_components": {
-      "price": 0.7672,
+      "price": 0.8986,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -748,9 +717,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5703,
+     "score": 0.6123,
      "score_components": {
-      "price": 0.7008,
+      "price": 0.8207,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -777,9 +746,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5679,
+     "score": 0.6095,
      "score_components": {
-      "price": 0.6941,
+      "price": 0.813,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -808,9 +777,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5596,
+     "score": 0.6032,
      "score_components": {
-      "price": 0.7275,
+      "price": 0.8521,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -837,9 +806,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5551,
+     "score": 0.5945,
      "score_components": {
-      "price": 0.6575,
+      "price": 0.77,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -866,9 +835,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5503,
+     "score": 0.5888,
      "score_components": {
-      "price": 0.6436,
+      "price": 0.7538,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -895,9 +864,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5464,
+     "score": 0.5843,
      "score_components": {
-      "price": 0.6326,
+      "price": 0.7409,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -924,9 +893,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5447,
+     "score": 0.5824,
      "score_components": {
-      "price": 0.6278,
+      "price": 0.7353,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -936,6 +905,37 @@
      "decision_score": 49,
      "stars": 2,
      "confidence": "Medium"
+    },
+    {
+     "price": 22677.0,
+     "currency": "TWD",
+     "route": "KHH-CTS",
+     "source": "google",
+     "stops": 0,
+     "duration": 250,
+     "airline": [
+      "SL"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-27",
+     "observed_at": "2026-07-20T13:28:04+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.4937,
+     "score_components": {
+      "price": 0.6819,
+      "duration": 0.0,
+      "stops": 1.0,
+      "airline": 0.55,
+      "freshness": 0.1,
+      "reliability": 0.8
+     },
+     "decision_score": 43,
+     "stars": 1,
+     "confidence": "High"
     },
     {
      "price": 24510.0,
@@ -953,9 +953,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.5056,
+     "score": 0.5365,
      "score_components": {
-      "price": 0.5161,
+      "price": 0.6044,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -982,9 +982,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.492,
+     "score": 0.5206,
      "score_components": {
-      "price": 0.4771,
+      "price": 0.5587,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -1011,9 +1011,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.4906,
+     "score": 0.519,
      "score_components": {
-      "price": 0.4733,
+      "price": 0.5543,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -1040,9 +1040,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.4743,
+     "score": 0.4999,
      "score_components": {
-      "price": 0.4266,
+      "price": 0.4996,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -1071,9 +1071,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4637,
+     "score": 0.4909,
      "score_components": {
-      "price": 0.4536,
+      "price": 0.5312,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -1100,9 +1100,9 @@
      "link": "",
      "provider": "searchapi",
      "raw_quality_score": 0.55,
-     "score": 0.4539,
+     "score": 0.476,
      "score_components": {
-      "price": 0.3683,
+      "price": 0.4314,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.5,
@@ -1131,9 +1131,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4444,
+     "score": 0.4671,
      "score_components": {
-      "price": 0.3783,
+      "price": 0.4431,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -1162,9 +1162,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4285,
+     "score": 0.4484,
      "score_components": {
-      "price": 0.3327,
+      "price": 0.3897,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -1236,26 +1236,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8977,
+    "score": 0.7464,
     "score_components": {
      "price": 1.0,
-     "duration": 1.0,
+     "duration": 0.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.7785,
+     "freshness": 0.7718,
      "reliability": 0.8
     },
-    "decision_score": 86,
+    "decision_score": 71,
     "subscores": {
      "price": 83,
-     "freshness": 78,
-     "duration": 100,
+     "freshness": 77,
+     "duration": 0,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 95
     },
-    "stars": 4,
+    "stars": 3,
     "confidence": "High",
-    "explanation": "比中位價便宜 39%，屬近期低點（價格 83）、直飛、飛行 2h30m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 86、信心 High。",
+    "explanation": "比中位價便宜 39%，屬近期低點（價格 83）、直飛、飛行 2h30m（時間 0）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 77、來源可信度 80）。綜合決策分 71、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -1272,7 +1272,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -1293,26 +1293,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8977,
+    "score": 0.7464,
     "score_components": {
      "price": 1.0,
-     "duration": 1.0,
+     "duration": 0.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.7785,
+     "freshness": 0.7718,
      "reliability": 0.8
     },
-    "decision_score": 86,
+    "decision_score": 71,
     "subscores": {
      "price": 83,
-     "freshness": 78,
-     "duration": 100,
+     "freshness": 77,
+     "duration": 0,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 95
     },
-    "stars": 4,
+    "stars": 3,
     "confidence": "High",
-    "explanation": "比中位價便宜 39%，屬近期低點（價格 83）、直飛、飛行 2h30m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 86、信心 High。",
+    "explanation": "比中位價便宜 39%，屬近期低點（價格 83）、直飛、飛行 2h30m（時間 0）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 77、來源可信度 80）。綜合決策分 71、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -1329,55 +1329,55 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": {
-    "price": 11661.0,
+    "price": 54597.0,
     "currency": "TWD",
     "route": "KHH-FUK",
     "source": "google",
     "stops": 0,
-    "duration": 150,
+    "duration": 145,
     "airline": [
-     "IT"
+     "CI"
     ],
     "departure_time": null,
     "arrival_time": null,
-    "depart_date": "2026-11-27",
-    "return_date": "2026-12-02",
-    "observed_at": "2026-10-20T11:24:31+00:00",
+    "depart_date": "2027-01-22",
+    "return_date": "2027-01-27",
+    "observed_at": "2026-07-20T13:28:10+00:00",
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8977,
+    "score": 0.4433,
     "score_components": {
-     "price": 1.0,
+     "price": 0.0094,
      "duration": 1.0,
      "stops": 1.0,
-     "airline": 0.62,
-     "freshness": 0.7785,
+     "airline": 0.9,
+     "freshness": 0.1,
      "reliability": 0.8
     },
-    "decision_score": 86,
+    "decision_score": 41,
     "subscores": {
-     "price": 83,
-     "freshness": 78,
+     "price": 0,
+     "freshness": 10,
      "duration": 100,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 82
     },
-    "stars": 4,
+    "stars": 1,
     "confidence": "High",
-    "explanation": "比中位價便宜 39%，屬近期低點（價格 83）、直飛、飛行 2h30m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 86、信心 High。",
+    "explanation": "高於中位價 185%（價格 0）、直飛、飛行 2h25m（時間 100）、資料95 天前由 Google Flights (SerpAPI) 更新（新鮮度 10、來源可信度 80）。綜合決策分 41、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
      "provider": "serpapi",
-     "depart_date": "2026-11-27",
-     "return_date": "2026-12-02",
-     "observed_at": "2026-10-20T11:24:31+00:00",
-     "observed_age": "3 天前",
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-27",
+     "observed_at": "2026-07-20T13:28:10+00:00",
+     "observed_age": "95 天前",
      "ranking_rule": "FIE v1 · FASTEST · 飛行時間最短",
      "weights": {
       "price": 0.4,
@@ -1386,7 +1386,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "cheapest_option": {
@@ -1407,26 +1407,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8977,
+    "score": 0.7464,
     "score_components": {
      "price": 1.0,
-     "duration": 1.0,
+     "duration": 0.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.7785,
+     "freshness": 0.7718,
      "reliability": 0.8
     },
-    "decision_score": 86,
+    "decision_score": 71,
     "subscores": {
      "price": 83,
-     "freshness": 78,
-     "duration": 100,
+     "freshness": 77,
+     "duration": 0,
      "source_reliability": 80,
-     "confidence": 96
+     "confidence": 95
     },
-    "stars": 4,
+    "stars": 3,
     "confidence": "High",
-    "explanation": "比中位價便宜 39%，屬近期低點（價格 83）、直飛、飛行 2h30m（時間 100）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 78、來源可信度 80）。綜合決策分 86、信心 High。",
+    "explanation": "比中位價便宜 39%，屬近期低點（價格 83）、直飛、飛行 2h30m（時間 0）、資料3 天前由 Google Flights (SerpAPI) 更新（新鮮度 77、來源可信度 80）。綜合決策分 71、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -1443,7 +1443,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -1465,17 +1465,17 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8977,
+     "score": 0.7464,
      "score_components": {
       "price": 1.0,
-      "duration": 1.0,
+      "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.7785,
+      "freshness": 0.7718,
       "reliability": 0.8
      },
-     "decision_score": 86,
-     "stars": 4,
+     "decision_score": 71,
+     "stars": 3,
      "confidence": "High"
     },
     {
@@ -1496,17 +1496,17 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8598,
+     "score": 0.7085,
      "score_components": {
       "price": 0.9262,
-      "duration": 1.0,
+      "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.7183,
+      "freshness": 0.7116,
       "reliability": 0.8
      },
-     "decision_score": 80,
-     "stars": 4,
+     "decision_score": 64,
+     "stars": 3,
      "confidence": "High"
     },
     {
@@ -1527,141 +1527,17 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8051,
+     "score": 0.6538,
      "score_components": {
       "price": 0.9192,
-      "duration": 1.0,
+      "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.4568,
+      "freshness": 0.4501,
       "reliability": 0.8
      },
-     "decision_score": 74,
-     "stars": 3,
-     "confidence": "High"
-    },
-    {
-     "price": 13861.0,
-     "currency": "TWD",
-     "route": "KHH-FUK",
-     "source": "google",
-     "stops": 0,
-     "duration": 150,
-     "airline": [
-      "IT"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2027-01-08",
-     "return_date": "2027-01-13",
-     "observed_at": "2026-10-10T12:22:16+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.7519,
-     "score_components": {
-      "price": 0.9492,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.62,
-      "freshness": 0.1382,
-      "reliability": 0.8
-     },
-     "decision_score": 71,
-     "stars": 3,
-     "confidence": "High"
-    },
-    {
-     "price": 15834.0,
-     "currency": "TWD",
-     "route": "KHH-FUK",
-     "source": "google",
-     "stops": 0,
-     "duration": 150,
-     "airline": [
-      "IT"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-12-08",
-     "return_date": "2026-12-15",
-     "observed_at": "2026-10-02T12:23:02+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.7283,
-     "score_components": {
-      "price": 0.9037,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.62,
-      "freshness": 0.1,
-      "reliability": 0.8
-     },
-     "decision_score": 67,
-     "stars": 3,
-     "confidence": "High"
-    },
-    {
-     "price": 15961.0,
-     "currency": "TWD",
-     "route": "KHH-FUK",
-     "source": "google",
-     "stops": 0,
-     "duration": 150,
-     "airline": [
-      "IT"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2027-01-01",
-     "return_date": "2027-01-06",
-     "observed_at": "2026-10-07T13:11:50+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.7273,
-     "score_components": {
-      "price": 0.9008,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.62,
-      "freshness": 0.1,
-      "reliability": 0.8
-     },
-     "decision_score": 67,
-     "stars": 3,
-     "confidence": "High"
-    },
-    {
-     "price": 17561.0,
-     "currency": "TWD",
-     "route": "KHH-FUK",
-     "source": "google",
-     "stops": 0,
-     "duration": 150,
-     "airline": [
-      "IT"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-10-05T14:25:19+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.7144,
-     "score_components": {
-      "price": 0.8639,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.62,
-      "freshness": 0.1,
-      "reliability": 0.8
-     },
-     "decision_score": 64,
-     "stars": 3,
+     "decision_score": 59,
+     "stars": 2,
      "confidence": "High"
     },
     {
@@ -1692,6 +1568,37 @@
      "decision_score": 58,
      "stars": 2,
      "confidence": "Medium"
+    },
+    {
+     "price": 13861.0,
+     "currency": "TWD",
+     "route": "KHH-FUK",
+     "source": "google",
+     "stops": 0,
+     "duration": 150,
+     "airline": [
+      "IT"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-08",
+     "return_date": "2027-01-13",
+     "observed_at": "2026-10-10T12:22:16+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.6005,
+     "score_components": {
+      "price": 0.9492,
+      "duration": 0.0,
+      "stops": 1.0,
+      "airline": 0.62,
+      "freshness": 0.1315,
+      "reliability": 0.8
+     },
+     "decision_score": 56,
+     "stars": 2,
+     "confidence": "High"
     },
     {
      "price": 15473.0,
@@ -1841,6 +1748,68 @@
      "decision_score": 53,
      "stars": 2,
      "confidence": "Medium"
+    },
+    {
+     "price": 15834.0,
+     "currency": "TWD",
+     "route": "KHH-FUK",
+     "source": "google",
+     "stops": 0,
+     "duration": 150,
+     "airline": [
+      "IT"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2026-12-08",
+     "return_date": "2026-12-15",
+     "observed_at": "2026-10-02T12:23:02+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.5783,
+     "score_components": {
+      "price": 0.9037,
+      "duration": 0.0,
+      "stops": 1.0,
+      "airline": 0.62,
+      "freshness": 0.1,
+      "reliability": 0.8
+     },
+     "decision_score": 52,
+     "stars": 2,
+     "confidence": "High"
+    },
+    {
+     "price": 15961.0,
+     "currency": "TWD",
+     "route": "KHH-FUK",
+     "source": "google",
+     "stops": 0,
+     "duration": 150,
+     "airline": [
+      "IT"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-01",
+     "return_date": "2027-01-06",
+     "observed_at": "2026-10-07T13:11:50+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.5773,
+     "score_components": {
+      "price": 0.9008,
+      "duration": 0.0,
+      "stops": 1.0,
+      "airline": 0.62,
+      "freshness": 0.1,
+      "reliability": 0.8
+     },
+     "decision_score": 52,
+     "stars": 2,
+     "confidence": "High"
     },
     {
      "price": 17777.0,
@@ -2286,37 +2255,6 @@
      "confidence": "Medium"
     },
     {
-     "price": 27383.0,
-     "currency": "TWD",
-     "route": "KHH-FUK",
-     "source": "google",
-     "stops": 0,
-     "duration": 150,
-     "airline": [
-      "IT"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-12-25",
-     "return_date": "2026-12-30",
-     "observed_at": "2026-08-19T06:59:35+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.635,
-     "score_components": {
-      "price": 0.6373,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.62,
-      "freshness": 0.1,
-      "reliability": 0.8
-     },
-     "decision_score": 46,
-     "stars": 2,
-     "confidence": "High"
-    },
-    {
      "price": 19605.0,
      "currency": "TWD",
      "route": "KHH-FUK",
@@ -2557,6 +2495,37 @@
      "decision_score": 41,
      "stars": 1,
      "confidence": "Medium"
+    },
+    {
+     "price": 54597.0,
+     "currency": "TWD",
+     "route": "KHH-FUK",
+     "source": "google",
+     "stops": 0,
+     "duration": 145,
+     "airline": [
+      "CI"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-27",
+     "observed_at": "2026-07-20T13:28:10+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.4433,
+     "score_components": {
+      "price": 0.0094,
+      "duration": 1.0,
+      "stops": 1.0,
+      "airline": 0.9,
+      "freshness": 0.1,
+      "reliability": 0.8
+     },
+     "decision_score": 41,
+     "stars": 1,
+     "confidence": "High"
     },
     {
      "price": 23559.0,
@@ -2803,6 +2772,37 @@
      "confidence": "Medium"
     },
     {
+     "price": 27383.0,
+     "currency": "TWD",
+     "route": "KHH-FUK",
+     "source": "google",
+     "stops": 0,
+     "duration": 150,
+     "airline": [
+      "IT"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2026-12-25",
+     "return_date": "2026-12-30",
+     "observed_at": "2026-08-19T06:59:35+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.485,
+     "score_components": {
+      "price": 0.6373,
+      "duration": 0.0,
+      "stops": 1.0,
+      "airline": 0.62,
+      "freshness": 0.1,
+      "reliability": 0.8
+     },
+     "decision_score": 31,
+     "stars": 1,
+     "confidence": "High"
+    },
+    {
      "price": 55003.0,
      "currency": "TWD",
      "route": "KHH-FUK",
@@ -2861,26 +2861,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8608,
+    "score": 0.8595,
     "score_components": {
      "price": 0.9347,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.7183,
+     "freshness": 0.7116,
      "reliability": 0.8
     },
     "decision_score": 75,
     "subscores": {
      "price": 58,
-     "freshness": 72,
+     "freshness": 71,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 94
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 6%（價格 58）、直飛、飛行 2h45m（時間 100）、資料4 天前由 Google Flights (SerpAPI) 更新（新鮮度 72、來源可信度 80）。綜合決策分 75、信心 High。",
+    "explanation": "比中位價便宜 6%（價格 58）、直飛、飛行 2h45m（時間 100）、資料4 天前由 Google Flights (SerpAPI) 更新（新鮮度 71、來源可信度 80）。綜合決策分 75、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -2897,7 +2897,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -2918,26 +2918,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8608,
+    "score": 0.8595,
     "score_components": {
      "price": 0.9347,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.7183,
+     "freshness": 0.7116,
      "reliability": 0.8
     },
     "decision_score": 75,
     "subscores": {
      "price": 58,
-     "freshness": 72,
+     "freshness": 71,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 94
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 6%（價格 58）、直飛、飛行 2h45m（時間 100）、資料4 天前由 Google Flights (SerpAPI) 更新（新鮮度 72、來源可信度 80）。綜合決策分 75、信心 High。",
+    "explanation": "比中位價便宜 6%（價格 58）、直飛、飛行 2h45m（時間 100）、資料4 天前由 Google Flights (SerpAPI) 更新（新鮮度 71、來源可信度 80）。綜合決策分 75、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -2954,7 +2954,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": {
@@ -2975,26 +2975,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8608,
+    "score": 0.8595,
     "score_components": {
      "price": 0.9347,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.7183,
+     "freshness": 0.7116,
      "reliability": 0.8
     },
     "decision_score": 75,
     "subscores": {
      "price": 58,
-     "freshness": 72,
+     "freshness": 71,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 94
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 6%（價格 58）、直飛、飛行 2h45m（時間 100）、資料4 天前由 Google Flights (SerpAPI) 更新（新鮮度 72、來源可信度 80）。綜合決策分 75、信心 High。",
+    "explanation": "比中位價便宜 6%（價格 58）、直飛、飛行 2h45m（時間 100）、資料4 天前由 Google Flights (SerpAPI) 更新（新鮮度 71、來源可信度 80）。綜合決策分 75、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -3011,7 +3011,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "cheapest_option": {
@@ -3068,7 +3068,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -3090,13 +3090,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8608,
+     "score": 0.8595,
      "score_components": {
       "price": 0.9347,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.7183,
+      "freshness": 0.7116,
       "reliability": 0.8
      },
      "decision_score": 75,
@@ -3121,13 +3121,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.809,
+     "score": 0.8076,
      "score_components": {
       "price": 0.8938,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.5209,
+      "freshness": 0.5141,
       "reliability": 0.8
      },
      "decision_score": 69,
@@ -3307,13 +3307,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7799,
+     "score": 0.7786,
      "score_components": {
       "price": 0.7751,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.5833,
+      "freshness": 0.5766,
       "reliability": 0.8
      },
      "decision_score": 63,
@@ -3431,13 +3431,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7197,
+     "score": 0.7184,
      "score_components": {
       "price": 0.7853,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.2744,
+      "freshness": 0.2677,
       "reliability": 0.8
      },
      "decision_score": 58,
@@ -3586,13 +3586,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6323,
+     "score": 0.6309,
      "score_components": {
       "price": 0.9016,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.3936,
+      "freshness": 0.3868,
       "reliability": 0.8
      },
      "decision_score": 52,
@@ -3710,13 +3710,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6502,
+     "score": 0.6489,
      "score_components": {
       "price": 0.8072,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.6486,
+      "freshness": 0.6418,
       "reliability": 0.8
      },
      "decision_score": 51,
@@ -3939,37 +3939,6 @@
      "decision_score": 48,
      "stars": 2,
      "confidence": "Medium"
-    },
-    {
-     "price": 9892.0,
-     "currency": "TWD",
-     "route": "KHH-KIX",
-     "source": "google",
-     "stops": 0,
-     "duration": 190,
-     "airline": [
-      "AK"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-09-30T12:25:53+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.5765,
-     "score_components": {
-      "price": 0.91,
-      "duration": 0.0,
-      "stops": 1.0,
-      "airline": 0.58,
-      "freshness": 0.1,
-      "reliability": 0.8
-     },
-     "decision_score": 48,
-     "stars": 2,
-     "confidence": "High"
     },
     {
      "price": 9932.0,
@@ -4654,6 +4623,37 @@
      "confidence": "Medium"
     },
     {
+     "price": 12517.0,
+     "currency": "TWD",
+     "route": "KHH-KIX",
+     "source": "aviasales",
+     "stops": 0,
+     "duration": null,
+     "airline": [
+      "AK"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-26",
+     "observed_at": "2026-08-23T17:17:48+00:00",
+     "link": "",
+     "provider": "travelpayouts",
+     "raw_quality_score": 0.7,
+     "score": 0.5486,
+     "score_components": {
+      "price": 0.6874,
+      "duration": 0.5,
+      "stops": 1.0,
+      "airline": 0.58,
+      "freshness": 0.1,
+      "reliability": 0.55
+     },
+     "decision_score": 34,
+     "stars": 1,
+     "confidence": "Medium"
+    },
+    {
      "price": 20624.0,
      "currency": "TWD",
      "route": "KHH-KIX",
@@ -4714,26 +4714,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8717,
+    "score": 0.8704,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.6486,
+     "freshness": 0.6418,
      "reliability": 0.8
     },
     "decision_score": 51,
     "subscores": {
      "price": 0,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 2,
     "confidence": "High",
-    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 65、來源可信度 80）。綜合決策分 51、信心 High。",
+    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 64、來源可信度 80）。綜合決策分 51、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -4750,7 +4750,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -4771,26 +4771,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8717,
+    "score": 0.8704,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.6486,
+     "freshness": 0.6418,
      "reliability": 0.8
     },
     "decision_score": 51,
     "subscores": {
      "price": 0,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 2,
     "confidence": "High",
-    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 65、來源可信度 80）。綜合決策分 51、信心 High。",
+    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 64、來源可信度 80）。綜合決策分 51、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -4807,7 +4807,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": {
@@ -4828,26 +4828,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8717,
+    "score": 0.8704,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.6486,
+     "freshness": 0.6418,
      "reliability": 0.8
     },
     "decision_score": 51,
     "subscores": {
      "price": 0,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 2,
     "confidence": "High",
-    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 65、來源可信度 80）。綜合決策分 51、信心 High。",
+    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 64、來源可信度 80）。綜合決策分 51、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -4864,7 +4864,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "cheapest_option": {
@@ -4885,26 +4885,26 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8717,
+    "score": 0.8704,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.6486,
+     "freshness": 0.6418,
      "reliability": 0.8
     },
     "decision_score": 51,
     "subscores": {
      "price": 0,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 2,
     "confidence": "High",
-    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 65、來源可信度 80）。綜合決策分 51、信心 High。",
+    "explanation": "高於中位價 44%（價格 0）、直飛、飛行 3h00m（時間 100）、資料5 天前由 Google Flights (SerpAPI) 更新（新鮮度 64、來源可信度 80）。綜合決策分 51、信心 High。",
     "provenance": {
      "api": "Google Flights (SerpAPI)",
      "source": "google",
@@ -4921,7 +4921,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -4943,13 +4943,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8717,
+     "score": 0.8704,
      "score_components": {
       "price": 1.0,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.6486,
+      "freshness": 0.6418,
       "reliability": 0.8
      },
      "decision_score": 51,
@@ -5311,26 +5311,26 @@
     "link": "",
     "provider": "scrapedo",
     "raw_quality_score": 0.85,
-    "score": 0.8682,
+    "score": 0.8669,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.58,
-     "freshness": 0.6512,
+     "freshness": 0.6445,
      "reliability": 0.8
     },
     "decision_score": 78,
     "subscores": {
      "price": 68,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 65、來源可信度 80）。綜合決策分 78、信心 High。",
+    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 64、來源可信度 80）。綜合決策分 78、信心 High。",
     "provenance": {
      "api": "Google Flights (Scrape.do)",
      "source": "google",
@@ -5347,7 +5347,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -5368,26 +5368,26 @@
     "link": "",
     "provider": "scrapedo",
     "raw_quality_score": 0.85,
-    "score": 0.8682,
+    "score": 0.8669,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.58,
-     "freshness": 0.6512,
+     "freshness": 0.6445,
      "reliability": 0.8
     },
     "decision_score": 78,
     "subscores": {
      "price": 68,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 65、來源可信度 80）。綜合決策分 78、信心 High。",
+    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 64、來源可信度 80）。綜合決策分 78、信心 High。",
     "provenance": {
      "api": "Google Flights (Scrape.do)",
      "source": "google",
@@ -5404,7 +5404,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": {
@@ -5425,26 +5425,26 @@
     "link": "",
     "provider": "scrapedo",
     "raw_quality_score": 0.85,
-    "score": 0.8682,
+    "score": 0.8669,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.58,
-     "freshness": 0.6512,
+     "freshness": 0.6445,
      "reliability": 0.8
     },
     "decision_score": 78,
     "subscores": {
      "price": 68,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 65、來源可信度 80）。綜合決策分 78、信心 High。",
+    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 64、來源可信度 80）。綜合決策分 78、信心 High。",
     "provenance": {
      "api": "Google Flights (Scrape.do)",
      "source": "google",
@@ -5461,7 +5461,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "cheapest_option": {
@@ -5482,26 +5482,26 @@
     "link": "",
     "provider": "scrapedo",
     "raw_quality_score": 0.85,
-    "score": 0.8682,
+    "score": 0.8669,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.58,
-     "freshness": 0.6512,
+     "freshness": 0.6445,
      "reliability": 0.8
     },
     "decision_score": 78,
     "subscores": {
      "price": 68,
-     "freshness": 65,
+     "freshness": 64,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 93
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 65、來源可信度 80）。綜合決策分 78、信心 High。",
+    "explanation": "比中位價便宜 12%（價格 68）、直飛、飛行 3h30m（時間 100）、資料5 天前由 Google Flights (Scrape.do) 更新（新鮮度 64、來源可信度 80）。綜合決策分 78、信心 High。",
     "provenance": {
      "api": "Google Flights (Scrape.do)",
      "source": "google",
@@ -5518,7 +5518,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -5540,13 +5540,13 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.8682,
+     "score": 0.8669,
      "score_components": {
       "price": 1.0,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.6512,
+      "freshness": 0.6445,
       "reliability": 0.8
      },
      "decision_score": 78,
@@ -5571,13 +5571,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8222,
+     "score": 0.8214,
      "score_components": {
-      "price": 0.9795,
+      "price": 0.9811,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.4568,
+      "freshness": 0.4501,
       "reliability": 0.8
      },
      "decision_score": 73,
@@ -5602,13 +5602,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7814,
+     "score": 0.7866,
      "score_components": {
-      "price": 0.7533,
+      "price": 0.772,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.6486,
+      "freshness": 0.6418,
       "reliability": 0.8
      },
      "decision_score": 59,
@@ -5633,9 +5633,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6471,
+     "score": 0.6485,
      "score_components": {
-      "price": 0.9488,
+      "price": 0.9527,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -5664,9 +5664,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6392,
+     "score": 0.6406,
      "score_components": {
-      "price": 0.9463,
+      "price": 0.9504,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -5695,9 +5695,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6443,
+     "score": 0.6459,
      "score_components": {
-      "price": 0.9408,
+      "price": 0.9453,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -5726,9 +5726,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6348,
+     "score": 0.6366,
      "score_components": {
-      "price": 0.9338,
+      "price": 0.9388,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -5757,9 +5757,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6307,
+     "score": 0.6328,
      "score_components": {
-      "price": 0.9221,
+      "price": 0.928,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -5788,9 +5788,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6328,
+     "score": 0.6353,
      "score_components": {
-      "price": 0.9081,
+      "price": 0.915,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -5819,9 +5819,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6256,
+     "score": 0.6281,
      "score_components": {
-      "price": 0.9074,
+      "price": 0.9144,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -5850,9 +5850,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.624,
+     "score": 0.6266,
      "score_components": {
-      "price": 0.9029,
+      "price": 0.9103,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -5881,43 +5881,12 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6229,
+     "score": 0.6255,
      "score_components": {
-      "price": 0.8996,
+      "price": 0.9073,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.1,
-      "reliability": 0.55
-     },
-     "decision_score": 45,
-     "stars": 2,
-     "confidence": "Medium"
-    },
-    {
-     "price": 10903.0,
-     "currency": "TWD",
-     "route": "KHH-NRT",
-     "source": "aviasales",
-     "stops": 0,
-     "duration": null,
-     "airline": [
-      "FD"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-16",
-     "observed_at": "2026-10-21T14:17:44+00:00",
-     "link": "",
-     "provider": "travelpayouts",
-     "raw_quality_score": 0.7,
-     "score": 0.6296,
-     "score_components": {
-      "price": 0.8988,
-      "duration": 0.5,
-      "stops": 1.0,
-      "airline": 0.65,
       "freshness": 0.1,
       "reliability": 0.55
      },
@@ -5943,9 +5912,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6221,
+     "score": 0.6248,
      "score_components": {
-      "price": 0.8973,
+      "price": 0.9051,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -5974,9 +5943,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.626,
+     "score": 0.629,
      "score_components": {
-      "price": 0.8886,
+      "price": 0.8971,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6005,9 +5974,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6177,
+     "score": 0.6207,
      "score_components": {
-      "price": 0.8847,
+      "price": 0.8935,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6036,9 +6005,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6244,
+     "score": 0.6275,
      "score_components": {
-      "price": 0.884,
+      "price": 0.8928,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6067,9 +6036,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6156,
+     "score": 0.6188,
      "score_components": {
-      "price": 0.8789,
+      "price": 0.8881,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6098,9 +6067,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6142,
+     "score": 0.6175,
      "score_components": {
-      "price": 0.8749,
+      "price": 0.8844,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6129,9 +6098,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6124,
+     "score": 0.6159,
      "score_components": {
-      "price": 0.8697,
+      "price": 0.8796,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6160,9 +6129,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6193,
+     "score": 0.6228,
      "score_components": {
-      "price": 0.8695,
+      "price": 0.8794,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6191,9 +6160,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6118,
+     "score": 0.6153,
      "score_components": {
-      "price": 0.8679,
+      "price": 0.8779,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6222,9 +6191,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6146,
+     "score": 0.6185,
      "score_components": {
-      "price": 0.8561,
+      "price": 0.867,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6253,9 +6222,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6144,
+     "score": 0.6183,
      "score_components": {
-      "price": 0.8555,
+      "price": 0.8664,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6284,9 +6253,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6064,
+     "score": 0.6103,
      "score_components": {
-      "price": 0.8527,
+      "price": 0.8638,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6315,9 +6284,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6039,
+     "score": 0.608,
      "score_components": {
-      "price": 0.8454,
+      "price": 0.8572,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6346,9 +6315,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.609,
+     "score": 0.6132,
      "score_components": {
-      "price": 0.84,
+      "price": 0.8521,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6377,9 +6346,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6089,
+     "score": 0.6131,
      "score_components": {
-      "price": 0.8396,
+      "price": 0.8518,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6408,9 +6377,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6009,
+     "score": 0.6053,
      "score_components": {
-      "price": 0.837,
+      "price": 0.8493,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6439,9 +6408,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6003,
+     "score": 0.6046,
      "score_components": {
-      "price": 0.8351,
+      "price": 0.8476,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6470,9 +6439,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5996,
+     "score": 0.604,
      "score_components": {
-      "price": 0.8331,
+      "price": 0.8458,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6501,9 +6470,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5939,
+     "score": 0.5987,
      "score_components": {
-      "price": 0.8167,
+      "price": 0.8307,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6532,9 +6501,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5907,
+     "score": 0.5958,
      "score_components": {
-      "price": 0.8077,
+      "price": 0.8223,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6563,9 +6532,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5891,
+     "score": 0.5944,
      "score_components": {
-      "price": 0.8033,
+      "price": 0.8182,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6594,9 +6563,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5889,
+     "score": 0.5941,
      "score_components": {
-      "price": 0.8025,
+      "price": 0.8175,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6625,9 +6594,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5957,
+     "score": 0.601,
      "score_components": {
-      "price": 0.802,
+      "price": 0.8171,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6656,9 +6625,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5898,
+     "score": 0.5955,
      "score_components": {
-      "price": 0.7852,
+      "price": 0.8015,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6687,9 +6656,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5809,
+     "score": 0.5868,
      "score_components": {
-      "price": 0.7797,
+      "price": 0.7964,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6718,9 +6687,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5872,
+     "score": 0.5931,
      "score_components": {
-      "price": 0.7777,
+      "price": 0.7946,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6749,9 +6718,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5871,
+     "score": 0.593,
      "score_components": {
-      "price": 0.7774,
+      "price": 0.7943,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6780,9 +6749,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5791,
+     "score": 0.5851,
      "score_components": {
-      "price": 0.7747,
+      "price": 0.7918,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6811,9 +6780,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5831,
+     "score": 0.5893,
      "score_components": {
-      "price": 0.766,
+      "price": 0.7838,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6842,9 +6811,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5791,
+     "score": 0.5857,
      "score_components": {
-      "price": 0.7547,
+      "price": 0.7733,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6873,9 +6842,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.574,
+     "score": 0.5809,
      "score_components": {
-      "price": 0.7399,
+      "price": 0.7597,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6904,9 +6873,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5607,
+     "score": 0.5687,
      "score_components": {
-      "price": 0.7021,
+      "price": 0.7247,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6935,9 +6904,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5537,
+     "score": 0.5616,
      "score_components": {
-      "price": 0.702,
+      "price": 0.7247,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -6966,9 +6935,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5558,
+     "score": 0.5641,
      "score_components": {
-      "price": 0.6881,
+      "price": 0.7117,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -6997,9 +6966,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5536,
+     "score": 0.5621,
      "score_components": {
-      "price": 0.6818,
+      "price": 0.706,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7028,9 +6997,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.552,
+     "score": 0.5605,
      "score_components": {
-      "price": 0.677,
+      "price": 0.7015,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7059,9 +7028,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5517,
+     "score": 0.5603,
      "score_components": {
-      "price": 0.6763,
+      "price": 0.7008,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7090,9 +7059,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5416,
+     "score": 0.5508,
      "score_components": {
-      "price": 0.656,
+      "price": 0.6821,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -7121,9 +7090,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5403,
+     "score": 0.5498,
      "score_components": {
-      "price": 0.6437,
+      "price": 0.6708,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7152,9 +7121,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5372,
+     "score": 0.5469,
      "score_components": {
-      "price": 0.635,
+      "price": 0.6627,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7183,9 +7152,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5276,
+     "score": 0.5375,
      "score_components": {
-      "price": 0.6276,
+      "price": 0.6558,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7214,9 +7183,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5303,
+     "score": 0.5405,
      "score_components": {
-      "price": 0.6151,
+      "price": 0.6443,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7245,9 +7214,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5302,
+     "score": 0.5404,
      "score_components": {
-      "price": 0.6148,
+      "price": 0.644,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7276,9 +7245,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5358,
+     "score": 0.5467,
      "score_components": {
-      "price": 0.588,
+      "price": 0.6193,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.8,
@@ -7307,9 +7276,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5133,
+     "score": 0.5243,
      "score_components": {
-      "price": 0.5866,
+      "price": 0.618,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7338,9 +7307,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5114,
+     "score": 0.5226,
      "score_components": {
-      "price": 0.5813,
+      "price": 0.613,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7369,9 +7338,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5056,
+     "score": 0.5177,
      "score_components": {
-      "price": 0.5445,
+      "price": 0.5791,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7400,9 +7369,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4933,
+     "score": 0.5058,
      "score_components": {
-      "price": 0.5293,
+      "price": 0.565,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7431,9 +7400,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4967,
+     "score": 0.5093,
      "score_components": {
-      "price": 0.5278,
+      "price": 0.5636,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -7462,9 +7431,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4629,
+     "score": 0.4777,
      "score_components": {
-      "price": 0.4425,
+      "price": 0.4848,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7493,9 +7462,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4437,
+     "score": 0.46,
      "score_components": {
-      "price": 0.3877,
+      "price": 0.4342,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7524,9 +7493,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4423,
+     "score": 0.4586,
      "score_components": {
-      "price": 0.3836,
+      "price": 0.4304,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7555,9 +7524,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4411,
+     "score": 0.4575,
      "score_components": {
-      "price": 0.3802,
+      "price": 0.4272,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7586,9 +7555,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4335,
+     "score": 0.451,
      "score_components": {
-      "price": 0.3384,
+      "price": 0.3886,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7617,9 +7586,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4031,
+     "score": 0.4224,
      "score_components": {
-      "price": 0.2717,
+      "price": 0.327,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -7648,9 +7617,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.3729,
+     "score": 0.395,
      "score_components": {
-      "price": 0.1653,
+      "price": 0.2286,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -7679,12 +7648,43 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.312,
+     "score": 0.3386,
+     "score_components": {
+      "price": 0.0759,
+      "duration": 0.5,
+      "stops": 1.0,
+      "airline": 0.62,
+      "freshness": 0.1,
+      "reliability": 0.55
+     },
+     "decision_score": 26,
+     "stars": 1,
+     "confidence": "Medium"
+    },
+    {
+     "price": 24783.0,
+     "currency": "TWD",
+     "route": "KHH-NRT",
+     "source": "aviasales",
+     "stops": 0,
+     "duration": null,
+     "airline": [
+      "GK"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-31",
+     "observed_at": "2026-10-21T14:17:45+00:00",
+     "link": "",
+     "provider": "travelpayouts",
+     "raw_quality_score": 0.7,
+     "score": 0.308,
      "score_components": {
       "price": 0.0,
       "duration": 0.5,
       "stops": 1.0,
-      "airline": 0.62,
+      "airline": 0.58,
       "freshness": 0.1,
       "reliability": 0.55
      },
@@ -7722,13 +7722,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8762,
+    "score": 0.8794,
     "score_components": {
-     "price": 0.9015,
+     "price": 0.9145,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.8434,
+     "freshness": 0.8367,
      "reliability": 0.8
     },
     "decision_score": 84,
@@ -7758,7 +7758,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -7779,13 +7779,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8762,
+    "score": 0.8794,
     "score_components": {
-     "price": 0.9015,
+     "price": 0.9145,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.8434,
+     "freshness": 0.8367,
      "reliability": 0.8
     },
     "decision_score": 84,
@@ -7815,7 +7815,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": {
@@ -7836,13 +7836,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8762,
+    "score": 0.8794,
     "score_components": {
-     "price": 0.9015,
+     "price": 0.9145,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.8434,
+     "freshness": 0.8367,
      "reliability": 0.8
     },
     "decision_score": 84,
@@ -7872,7 +7872,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "cheapest_option": {
@@ -7893,13 +7893,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.7969,
+    "score": 0.7955,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.2744,
+     "freshness": 0.2677,
      "reliability": 0.8
     },
     "decision_score": 77,
@@ -7929,7 +7929,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -7951,13 +7951,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8762,
+     "score": 0.8794,
      "score_components": {
-      "price": 0.9015,
+      "price": 0.9145,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.8434,
+      "freshness": 0.8367,
       "reliability": 0.8
      },
      "decision_score": 84,
@@ -7982,48 +7982,17 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7969,
+     "score": 0.7955,
      "score_components": {
       "price": 1.0,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.2744,
+      "freshness": 0.2677,
       "reliability": 0.8
      },
      "decision_score": 77,
      "stars": 4,
-     "confidence": "High"
-    },
-    {
-     "price": 7877.0,
-     "currency": "TWD",
-     "route": "KHH-OKA",
-     "source": "google",
-     "stops": 0,
-     "duration": 100,
-     "airline": [
-      "GK"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2027-01-15",
-     "return_date": "2027-01-20",
-     "observed_at": "2026-10-19T12:56:49+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.6896,
-     "score_components": {
-      "price": 0.7726,
-      "duration": 0.25,
-      "stops": 1.0,
-      "airline": 0.58,
-      "freshness": 0.7183,
-      "reliability": 0.8
-     },
-     "decision_score": 68,
-     "stars": 3,
      "confidence": "High"
     },
     {
@@ -8044,9 +8013,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6824,
+     "score": 0.6929,
      "score_components": {
-      "price": 0.7725,
+      "price": 0.8026,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8054,6 +8023,37 @@
       "reliability": 0.8
      },
      "decision_score": 68,
+     "stars": 3,
+     "confidence": "High"
+    },
+    {
+     "price": 7877.0,
+     "currency": "TWD",
+     "route": "KHH-OKA",
+     "source": "google",
+     "stops": 0,
+     "duration": 100,
+     "airline": [
+      "GK"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-15",
+     "return_date": "2027-01-20",
+     "observed_at": "2026-10-19T12:56:49+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.6988,
+     "score_components": {
+      "price": 0.8027,
+      "duration": 0.25,
+      "stops": 1.0,
+      "airline": 0.58,
+      "freshness": 0.7116,
+      "reliability": 0.8
+     },
+     "decision_score": 67,
      "stars": 3,
      "confidence": "High"
     },
@@ -8075,9 +8075,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6766,
+     "score": 0.6879,
      "score_components": {
-      "price": 0.7559,
+      "price": 0.7882,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8106,9 +8106,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6571,
+     "score": 0.6577,
      "score_components": {
-      "price": 0.9859,
+      "price": 0.9878,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8137,9 +8137,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6365,
+     "score": 0.6399,
      "score_components": {
-      "price": 0.9271,
+      "price": 0.9368,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8168,9 +8168,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.5784,
+     "score": 0.5873,
      "score_components": {
-      "price": 0.8082,
+      "price": 0.8336,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.58,
@@ -8199,9 +8199,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.541,
+     "score": 0.5702,
      "score_components": {
-      "price": 0.3686,
+      "price": 0.4521,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8230,9 +8230,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6226,
+     "score": 0.6278,
      "score_components": {
-      "price": 0.8876,
+      "price": 0.9024,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8261,9 +8261,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6068,
+     "score": 0.6135,
      "score_components": {
-      "price": 0.8536,
+      "price": 0.873,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -8292,13 +8292,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.55,
+     "score": 0.5697,
      "score_components": {
-      "price": 0.5468,
+      "price": 0.6067,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.5833,
+      "freshness": 0.5766,
       "reliability": 0.8
      },
      "decision_score": 55,
@@ -8323,9 +8323,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6035,
+     "score": 0.6112,
      "score_components": {
-      "price": 0.8328,
+      "price": 0.8549,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8354,9 +8354,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5907,
+     "score": 0.6001,
      "score_components": {
-      "price": 0.7963,
+      "price": 0.8233,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8385,9 +8385,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5769,
+     "score": 0.5881,
      "score_components": {
-      "price": 0.7567,
+      "price": 0.7889,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8416,9 +8416,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.5112,
+     "score": 0.529,
      "score_components": {
-      "price": 0.6163,
+      "price": 0.667,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.58,
@@ -8447,9 +8447,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5628,
+     "score": 0.5754,
      "score_components": {
-      "price": 0.7279,
+      "price": 0.7639,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -8478,9 +8478,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5382,
+     "score": 0.5537,
      "score_components": {
-      "price": 0.6663,
+      "price": 0.7104,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -8509,9 +8509,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5435,
+     "score": 0.5591,
      "score_components": {
-      "price": 0.6614,
+      "price": 0.7061,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8540,9 +8540,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.541,
+     "score": 0.557,
      "score_components": {
-      "price": 0.6542,
+      "price": 0.7,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8571,9 +8571,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5388,
+     "score": 0.5551,
      "score_components": {
-      "price": 0.648,
+      "price": 0.6945,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8602,9 +8602,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4836,
+     "score": 0.5005,
      "score_components": {
-      "price": 0.6331,
+      "price": 0.6816,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8633,9 +8633,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.4744,
+     "score": 0.4926,
      "score_components": {
-      "price": 0.6069,
+      "price": 0.6589,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8664,9 +8664,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.412,
+     "score": 0.4583,
      "score_components": {
-      "price": 0.0,
+      "price": 0.1322,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8695,9 +8695,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5016,
+     "score": 0.5228,
      "score_components": {
-      "price": 0.5418,
+      "price": 0.6024,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8726,9 +8726,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5015,
+     "score": 0.5227,
      "score_components": {
-      "price": 0.5413,
+      "price": 0.602,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -8757,9 +8757,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4378,
+     "score": 0.4649,
      "score_components": {
-      "price": 0.4151,
+      "price": 0.4925,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.55,
@@ -8788,9 +8788,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4369,
+     "score": 0.4641,
      "score_components": {
-      "price": 0.4125,
+      "price": 0.4902,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.55,
@@ -8819,9 +8819,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4361,
+     "score": 0.4634,
      "score_components": {
-      "price": 0.4102,
+      "price": 0.4881,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.55,
@@ -8850,9 +8850,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4326,
+     "score": 0.4603,
      "score_components": {
-      "price": 0.4002,
+      "price": 0.4795,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.55,
@@ -8881,9 +8881,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.443,
+     "score": 0.4653,
      "score_components": {
-      "price": 0.5171,
+      "price": 0.581,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8912,9 +8912,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4417,
+     "score": 0.4642,
      "score_components": {
-      "price": 0.5133,
+      "price": 0.5777,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -8943,40 +8943,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4902,
+     "score": 0.5129,
      "score_components": {
-      "price": 0.509,
-      "duration": 0.5,
-      "stops": 1.0,
-      "airline": 0.62,
-      "freshness": 0.1,
-      "reliability": 0.55
-     },
-     "decision_score": 46,
-     "stars": 2,
-     "confidence": "Medium"
-    },
-    {
-     "price": 9517.0,
-     "currency": "TWD",
-     "route": "KHH-OKA",
-     "source": "aviasales",
-     "stops": 0,
-     "duration": null,
-     "airline": [
-      "IT"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-17",
-     "observed_at": "2026-10-21T08:17:51+00:00",
-     "link": "",
-     "provider": "travelpayouts",
-     "raw_quality_score": 0.7,
-     "score": 0.4874,
-     "score_components": {
-      "price": 0.5011,
+      "price": 0.5739,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -9005,9 +8974,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4292,
+     "score": 0.4574,
      "score_components": {
-      "price": 0.3906,
+      "price": 0.4712,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.55,
@@ -9036,9 +9005,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4788,
+     "score": 0.5021,
      "score_components": {
-      "price": 0.4964,
+      "price": 0.563,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -9067,9 +9036,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4149,
+     "score": 0.441,
      "score_components": {
-      "price": 0.437,
+      "price": 0.5114,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -9098,9 +9067,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.46,
+     "score": 0.4867,
      "score_components": {
-      "price": 0.4229,
+      "price": 0.4992,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -9129,9 +9098,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.4017,
+     "score": 0.4335,
      "score_components": {
-      "price": 0.312,
+      "price": 0.4029,
       "duration": 0.25,
       "stops": 1.0,
       "airline": 0.55,
@@ -9160,9 +9129,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4328,
+     "score": 0.4622,
      "score_components": {
-      "price": 0.3651,
+      "price": 0.4491,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -9191,9 +9160,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4266,
+     "score": 0.4572,
      "score_components": {
-      "price": 0.339,
+      "price": 0.4264,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -9222,9 +9191,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.3594,
+     "score": 0.3928,
      "score_components": {
-      "price": 0.2784,
+      "price": 0.3738,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -9253,9 +9222,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.3576,
+     "score": 0.3913,
      "score_components": {
-      "price": 0.2732,
+      "price": 0.3693,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -9284,9 +9253,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.396,
+     "score": 0.4307,
      "score_components": {
-      "price": 0.2515,
+      "price": 0.3505,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -9315,9 +9284,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.3329,
+     "score": 0.3698,
      "score_components": {
-      "price": 0.2025,
+      "price": 0.3079,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -9346,9 +9315,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.3315,
+     "score": 0.3686,
      "score_components": {
-      "price": 0.1987,
+      "price": 0.3046,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.62,
@@ -9377,9 +9346,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.3423,
+     "score": 0.3845,
      "score_components": {
-      "price": 0.0864,
+      "price": 0.2072,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -9389,6 +9358,37 @@
      "decision_score": 35,
      "stars": 1,
      "confidence": "Medium"
+    },
+    {
+     "price": 13463.0,
+     "currency": "TWD",
+     "route": "KHH-OKA",
+     "source": "google",
+     "stops": 0,
+     "duration": 100,
+     "airline": [
+      "CI"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-27",
+     "observed_at": "2026-07-21T12:10:23+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.3275,
+     "score_components": {
+      "price": 0.0,
+      "duration": 0.25,
+      "stops": 1.0,
+      "airline": 0.9,
+      "freshness": 0.1,
+      "reliability": 0.8
+     },
+     "decision_score": 32,
+     "stars": 1,
+     "confidence": "High"
     }
    ]
   },
@@ -9400,10 +9400,10 @@
    "route_stats": {
     "min": 5818.0,
     "median": 12215.0,
-    "n": 114
+    "n": 124
    },
    "best_option": {
-    "price": 8930.0,
+    "price": 8929.0,
     "currency": "TWD",
     "route": "TPE-FUK",
     "source": "aviasales",
@@ -9416,7 +9416,7 @@
     "arrival_time": null,
     "depart_date": "2026-12-06",
     "return_date": "2026-12-10",
-    "observed_at": "2026-10-23T22:06:09+00:00",
+    "observed_at": "2026-10-24T00:36:51+00:00",
     "link": "",
     "provider": "travelpayouts",
     "raw_quality_score": 0.7,
@@ -9446,7 +9446,7 @@
      "provider": "travelpayouts",
      "depart_date": "2026-12-06",
      "return_date": "2026-12-10",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:51+00:00",
      "observed_age": "1 分鐘前",
      "ranking_rule": "FIE v1 · BEST · 綜合最高分",
      "weights": {
@@ -9456,11 +9456,11 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
-    "price": 8930.0,
+    "price": 8929.0,
     "currency": "TWD",
     "route": "TPE-FUK",
     "source": "aviasales",
@@ -9473,7 +9473,7 @@
     "arrival_time": null,
     "depart_date": "2026-12-06",
     "return_date": "2026-12-10",
-    "observed_at": "2026-10-23T22:06:09+00:00",
+    "observed_at": "2026-10-24T00:36:51+00:00",
     "link": "",
     "provider": "travelpayouts",
     "raw_quality_score": 0.7,
@@ -9503,7 +9503,7 @@
      "provider": "travelpayouts",
      "depart_date": "2026-12-06",
      "return_date": "2026-12-10",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:51+00:00",
      "observed_age": "1 分鐘前",
      "ranking_rule": "FIE v1 · VALUE · 高CP值",
      "weights": {
@@ -9513,12 +9513,12 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": null,
    "cheapest_option": {
-    "price": 8930.0,
+    "price": 8929.0,
     "currency": "TWD",
     "route": "TPE-FUK",
     "source": "aviasales",
@@ -9531,7 +9531,7 @@
     "arrival_time": null,
     "depart_date": "2026-12-06",
     "return_date": "2026-12-10",
-    "observed_at": "2026-10-23T22:06:09+00:00",
+    "observed_at": "2026-10-24T00:36:51+00:00",
     "link": "",
     "provider": "travelpayouts",
     "raw_quality_score": 0.7,
@@ -9561,7 +9561,7 @@
      "provider": "travelpayouts",
      "depart_date": "2026-12-06",
      "return_date": "2026-12-10",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:51+00:00",
      "observed_age": "1 分鐘前",
      "ranking_rule": "FIE v1 · CHEAPEST · 價格最低",
      "weights": {
@@ -9571,12 +9571,12 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
     {
-     "price": 8930.0,
+     "price": 8929.0,
      "currency": "TWD",
      "route": "TPE-FUK",
      "source": "aviasales",
@@ -9589,7 +9589,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-06",
      "return_date": "2026-12-10",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:51+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -9620,13 +9620,13 @@
      "arrival_time": null,
      "depart_date": "2027-01-01",
      "return_date": "2027-01-05",
-     "observed_at": "2026-10-23T22:06:10+00:00",
+     "observed_at": "2026-10-24T00:36:52+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
      "score": 0.6678,
      "score_components": {
-      "price": 0.514,
+      "price": 0.5139,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -9638,7 +9638,7 @@
      "confidence": "Medium"
     },
     {
-     "price": 12433.0,
+     "price": 12431.0,
      "currency": "TWD",
      "route": "TPE-FUK",
      "source": "aviasales",
@@ -9651,13 +9651,13 @@
      "arrival_time": null,
      "depart_date": "2026-12-22",
      "return_date": "2026-12-29",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:51+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6697,
+     "score": 0.6698,
      "score_components": {
-      "price": 0.5081,
+      "price": 0.5083,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -9682,7 +9682,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-26",
      "return_date": "2026-11-30",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:50+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -9713,13 +9713,13 @@
      "arrival_time": null,
      "depart_date": "2026-12-31",
      "return_date": "2027-01-04",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:51+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.632,
+     "score": 0.6319,
      "score_components": {
-      "price": 0.4116,
+      "price": 0.4115,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -9748,9 +9748,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6288,
+     "score": 0.6287,
      "score_components": {
-      "price": 0.9051,
+      "price": 0.9049,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -9781,7 +9781,7 @@
      "raw_quality_score": 0.7,
      "score": 0.6272,
      "score_components": {
-      "price": 0.9006,
+      "price": 0.9004,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -9810,9 +9810,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.581,
+     "score": 0.5809,
      "score_components": {
-      "price": 0.7799,
+      "price": 0.7798,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -9837,7 +9837,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-24",
      "return_date": "2026-12-28",
-     "observed_at": "2026-10-23T22:06:09+00:00",
+     "observed_at": "2026-10-24T00:36:51+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -9874,7 +9874,7 @@
      "raw_quality_score": 0.7,
      "score": 0.4798,
      "score_components": {
-      "price": 0.4908,
+      "price": 0.4907,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -9891,11 +9891,11 @@
    "route": "TPE-HND",
    "origin": "TPE",
    "destination": "HND",
-   "n_offers": 21,
+   "n_offers": 22,
    "route_stats": {
     "min": 8833.0,
-    "median": 13032.0,
-    "n": 447
+    "median": 12708.0,
+    "n": 487
    },
    "best_option": {
     "price": 9170.0,
@@ -9911,7 +9911,7 @@
     "arrival_time": null,
     "depart_date": "2026-12-09",
     "return_date": "2026-12-16",
-    "observed_at": "2026-10-23T22:05:57+00:00",
+    "observed_at": "2026-10-24T00:36:40+00:00",
     "link": "",
     "provider": "travelpayouts",
     "raw_quality_score": 0.7,
@@ -9921,7 +9921,7 @@
      "duration": 0.5,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.999,
+     "freshness": 0.9991,
      "reliability": 0.55
     },
     "decision_score": 80,
@@ -9934,14 +9934,14 @@
     },
     "stars": 4,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 30%，屬近期低點（價格 96）、直飛、飛行時間資料累積中、資料1 分鐘前由 Travelpayouts / Aviasales 快取 更新（新鮮度 100、來源可信度 55）。綜合決策分 80、信心 Medium。",
+    "explanation": "比中位價便宜 28%，屬近期低點（價格 96）、直飛、飛行時間資料累積中、資料1 分鐘前由 Travelpayouts / Aviasales 快取 更新（新鮮度 100、來源可信度 55）。綜合決策分 80、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
      "provider": "travelpayouts",
      "depart_date": "2026-12-09",
      "return_date": "2026-12-16",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "observed_age": "1 分鐘前",
      "ranking_rule": "FIE v1 · BEST · 綜合最高分",
      "weights": {
@@ -9951,7 +9951,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -9968,7 +9968,7 @@
     "arrival_time": null,
     "depart_date": "2026-12-09",
     "return_date": "2026-12-16",
-    "observed_at": "2026-10-23T22:05:57+00:00",
+    "observed_at": "2026-10-24T00:36:40+00:00",
     "link": "",
     "provider": "travelpayouts",
     "raw_quality_score": 0.7,
@@ -9978,7 +9978,7 @@
      "duration": 0.5,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.999,
+     "freshness": 0.9991,
      "reliability": 0.55
     },
     "decision_score": 80,
@@ -9991,14 +9991,14 @@
     },
     "stars": 4,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 30%，屬近期低點（價格 96）、直飛、飛行時間資料累積中、資料1 分鐘前由 Travelpayouts / Aviasales 快取 更新（新鮮度 100、來源可信度 55）。綜合決策分 80、信心 Medium。",
+    "explanation": "比中位價便宜 28%，屬近期低點（價格 96）、直飛、飛行時間資料累積中、資料1 分鐘前由 Travelpayouts / Aviasales 快取 更新（新鮮度 100、來源可信度 55）。綜合決策分 80、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
      "provider": "travelpayouts",
      "depart_date": "2026-12-09",
      "return_date": "2026-12-16",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "observed_age": "1 分鐘前",
      "ranking_rule": "FIE v1 · VALUE · 高CP值",
      "weights": {
@@ -10008,7 +10008,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": null,
@@ -10026,7 +10026,7 @@
     "arrival_time": null,
     "depart_date": "2026-12-09",
     "return_date": "2026-12-16",
-    "observed_at": "2026-10-23T22:05:57+00:00",
+    "observed_at": "2026-10-24T00:36:40+00:00",
     "link": "",
     "provider": "travelpayouts",
     "raw_quality_score": 0.7,
@@ -10036,7 +10036,7 @@
      "duration": 0.5,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.999,
+     "freshness": 0.9991,
      "reliability": 0.55
     },
     "decision_score": 80,
@@ -10049,14 +10049,14 @@
     },
     "stars": 4,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 30%，屬近期低點（價格 96）、直飛、飛行時間資料累積中、資料1 分鐘前由 Travelpayouts / Aviasales 快取 更新（新鮮度 100、來源可信度 55）。綜合決策分 80、信心 Medium。",
+    "explanation": "比中位價便宜 28%，屬近期低點（價格 96）、直飛、飛行時間資料累積中、資料1 分鐘前由 Travelpayouts / Aviasales 快取 更新（新鮮度 100、來源可信度 55）。綜合決策分 80、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
      "provider": "travelpayouts",
      "depart_date": "2026-12-09",
      "return_date": "2026-12-16",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "observed_age": "1 分鐘前",
      "ranking_rule": "FIE v1 · CHEAPEST · 價格最低",
      "weights": {
@@ -10066,7 +10066,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -10084,7 +10084,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-09",
      "return_date": "2026-12-16",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10094,7 +10094,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
      "decision_score": 80,
@@ -10102,7 +10102,7 @@
      "confidence": "Medium"
     },
     {
-     "price": 10071.0,
+     "price": 10069.0,
      "currency": "TWD",
      "route": "TPE-HND",
      "source": "aviasales",
@@ -10115,13 +10115,13 @@
      "arrival_time": null,
      "depart_date": "2026-11-14",
      "return_date": "2026-11-18",
-     "observed_at": "2026-10-23T22:05:56+00:00",
+     "observed_at": "2026-10-24T00:36:39+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.8182,
+     "score": 0.8183,
      "score_components": {
-      "price": 0.9383,
+      "price": 0.9385,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -10146,7 +10146,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-02",
      "return_date": "2026-12-09",
-     "observed_at": "2026-10-23T22:05:56+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10156,10 +10156,10 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 76,
+     "decision_score": 75,
      "stars": 4,
      "confidence": "Medium"
     },
@@ -10177,20 +10177,20 @@
      "arrival_time": null,
      "depart_date": "2026-12-05",
      "return_date": "2026-12-13",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.8124,
+     "score": 0.8125,
      "score_components": {
       "price": 0.9219,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 75,
+     "decision_score": 74,
      "stars": 3,
      "confidence": "Medium"
     },
@@ -10208,7 +10208,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-24",
      "return_date": "2026-11-29",
-     "observed_at": "2026-10-23T22:05:56+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10218,7 +10218,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
      "decision_score": 74,
@@ -10239,7 +10239,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-24",
      "return_date": "2027-01-06",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10249,10 +10249,10 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 72,
+     "decision_score": 71,
      "stars": 3,
      "confidence": "Medium"
     },
@@ -10270,7 +10270,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-25",
      "return_date": "2027-01-06",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10280,15 +10280,15 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 68,
+     "decision_score": 66,
      "stars": 3,
      "confidence": "Medium"
     },
     {
-     "price": 11888.0,
+     "price": 11886.0,
      "currency": "TWD",
      "route": "TPE-HND",
      "source": "aviasales",
@@ -10301,20 +10301,20 @@
      "arrival_time": null,
      "depart_date": "2026-12-12",
      "return_date": "2026-12-22",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7747,
+     "score": 0.7748,
      "score_components": {
-      "price": 0.814,
+      "price": 0.8142,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 67,
+     "decision_score": 66,
      "stars": 3,
      "confidence": "Medium"
     },
@@ -10332,7 +10332,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-26",
      "return_date": "2026-11-29",
-     "observed_at": "2026-10-23T22:05:56+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10342,10 +10342,10 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 65,
+     "decision_score": 63,
      "stars": 3,
      "confidence": "Medium"
     },
@@ -10363,7 +10363,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-13",
      "return_date": "2027-01-17",
-     "observed_at": "2026-10-23T22:05:58+00:00",
+     "observed_at": "2026-10-24T00:36:41+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10376,7 +10376,38 @@
       "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 65,
+     "decision_score": 63,
+     "stars": 3,
+     "confidence": "Medium"
+    },
+    {
+     "price": 12597.0,
+     "currency": "TWD",
+     "route": "TPE-HND",
+     "source": "aviasales",
+     "stops": 0,
+     "duration": null,
+     "airline": [
+      "IT"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2026-11-22",
+     "return_date": "2026-11-24",
+     "observed_at": "2026-10-24T00:36:39+00:00",
+     "link": "",
+     "provider": "travelpayouts",
+     "raw_quality_score": 0.7,
+     "score": 0.7597,
+     "score_components": {
+      "price": 0.7655,
+      "duration": 0.5,
+      "stops": 1.0,
+      "airline": 0.62,
+      "freshness": 0.999,
+      "reliability": 0.55
+     },
+     "decision_score": 63,
      "stars": 3,
      "confidence": "Medium"
     },
@@ -10394,7 +10425,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-28",
      "return_date": "2026-12-04",
-     "observed_at": "2026-10-23T22:05:56+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10404,42 +10435,11 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
-      "reliability": 0.55
-     },
-     "decision_score": 62,
-     "stars": 3,
-     "confidence": "Medium"
-    },
-    {
-     "price": 13477.0,
-     "currency": "TWD",
-     "route": "TPE-HND",
-     "source": "aviasales",
-     "stops": 0,
-     "duration": null,
-     "airline": [
-      "MM"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2027-01-04",
-     "return_date": "2027-01-08",
-     "observed_at": "2026-10-23T22:05:58+00:00",
-     "link": "",
-     "provider": "travelpayouts",
-     "raw_quality_score": 0.7,
-     "score": 0.7367,
-     "score_components": {
-      "price": 0.7053,
-      "duration": 0.5,
-      "stops": 1.0,
-      "airline": 0.6,
       "freshness": 0.9991,
       "reliability": 0.55
      },
      "decision_score": 60,
-     "stars": 2,
+     "stars": 3,
      "confidence": "Medium"
     },
     {
@@ -10474,33 +10474,33 @@
      "confidence": "Medium"
     },
     {
-     "price": 13700.0,
+     "price": 13477.0,
      "currency": "TWD",
      "route": "TPE-HND",
      "source": "aviasales",
      "stops": 0,
      "duration": null,
      "airline": [
-      "IT"
+      "MM"
      ],
      "departure_time": null,
      "arrival_time": null,
-     "depart_date": "2026-11-29",
-     "return_date": "2026-12-04",
-     "observed_at": "2026-10-23T22:05:56+00:00",
+     "depart_date": "2027-01-04",
+     "return_date": "2027-01-08",
+     "observed_at": "2026-10-24T00:36:41+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7333,
+     "score": 0.7367,
      "score_components": {
-      "price": 0.69,
+      "price": 0.7053,
       "duration": 0.5,
       "stops": 1.0,
-      "airline": 0.62,
-      "freshness": 0.999,
+      "airline": 0.6,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 59,
+     "decision_score": 58,
      "stars": 2,
      "confidence": "Medium"
     },
@@ -10531,12 +10531,43 @@
       "freshness": 0.1,
       "reliability": 0.55
      },
-     "decision_score": 58,
+     "decision_score": 57,
      "stars": 2,
      "confidence": "Medium"
     },
     {
-     "price": 14727.0,
+     "price": 13700.0,
+     "currency": "TWD",
+     "route": "TPE-HND",
+     "source": "aviasales",
+     "stops": 0,
+     "duration": null,
+     "airline": [
+      "IT"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2026-11-29",
+     "return_date": "2026-12-04",
+     "observed_at": "2026-10-24T00:36:40+00:00",
+     "link": "",
+     "provider": "travelpayouts",
+     "raw_quality_score": 0.7,
+     "score": 0.7333,
+     "score_components": {
+      "price": 0.69,
+      "duration": 0.5,
+      "stops": 1.0,
+      "airline": 0.62,
+      "freshness": 0.9991,
+      "reliability": 0.55
+     },
+     "decision_score": 57,
+     "stars": 2,
+     "confidence": "Medium"
+    },
+    {
+     "price": 14724.0,
      "currency": "TWD",
      "route": "TPE-HND",
      "source": "aviasales",
@@ -10549,20 +10580,20 @@
      "arrival_time": null,
      "depart_date": "2027-01-01",
      "return_date": "2027-01-05",
-     "observed_at": "2026-10-23T22:05:58+00:00",
+     "observed_at": "2026-10-24T00:36:41+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7067,
+     "score": 0.7068,
      "score_components": {
-      "price": 0.6197,
+      "price": 0.62,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
       "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 54,
+     "decision_score": 52,
      "stars": 2,
      "confidence": "Medium"
     },
@@ -10580,7 +10611,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-29",
      "return_date": "2027-01-03",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10590,10 +10621,10 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 54,
+     "decision_score": 51,
      "stars": 2,
      "confidence": "Medium"
     },
@@ -10611,7 +10642,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-12",
      "return_date": "2027-01-22",
-     "observed_at": "2026-10-23T22:05:58+00:00",
+     "observed_at": "2026-10-24T00:36:41+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10624,7 +10655,7 @@
       "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 53,
+     "decision_score": 50,
      "stars": 2,
      "confidence": "Medium"
     },
@@ -10655,12 +10686,12 @@
       "freshness": 0.1,
       "reliability": 0.55
      },
-     "decision_score": 47,
+     "decision_score": 46,
      "stars": 2,
      "confidence": "Medium"
     },
     {
-     "price": 16948.0,
+     "price": 16945.0,
      "currency": "TWD",
      "route": "TPE-HND",
      "source": "aviasales",
@@ -10673,20 +10704,20 @@
      "arrival_time": null,
      "depart_date": "2026-12-23",
      "return_date": "2026-12-27",
-     "observed_at": "2026-10-23T22:05:57+00:00",
+     "observed_at": "2026-10-24T00:36:40+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6535,
+     "score": 0.6536,
      "score_components": {
-      "price": 0.4678,
+      "price": 0.468,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.999,
+      "freshness": 0.9991,
       "reliability": 0.55
      },
-     "decision_score": 43,
+     "decision_score": 42,
      "stars": 1,
      "confidence": "Medium"
     },
@@ -10704,7 +10735,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-21",
      "return_date": "2027-02-08",
-     "observed_at": "2026-10-23T22:05:58+00:00",
+     "observed_at": "2026-10-24T00:36:41+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -10731,7 +10762,7 @@
    "route_stats": {
     "min": 5535.0,
     "median": 8759.0,
-    "n": 72871
+    "n": 72892
    },
    "best_option": {
     "price": 7151.0,
@@ -10751,13 +10782,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8567,
+    "score": 0.8553,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.5833,
+     "freshness": 0.5766,
      "reliability": 0.8
     },
     "decision_score": 79,
@@ -10787,7 +10818,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -10808,13 +10839,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8567,
+    "score": 0.8553,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.5833,
+     "freshness": 0.5766,
      "reliability": 0.8
     },
     "decision_score": 79,
@@ -10844,7 +10875,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": {
@@ -10865,13 +10896,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8567,
+    "score": 0.8553,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.5833,
+     "freshness": 0.5766,
      "reliability": 0.8
     },
     "decision_score": 79,
@@ -10901,7 +10932,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "cheapest_option": {
@@ -10922,13 +10953,13 @@
     "link": "",
     "provider": "serpapi",
     "raw_quality_score": 0.85,
-    "score": 0.8567,
+    "score": 0.8553,
     "score_components": {
      "price": 1.0,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.6,
-     "freshness": 0.5833,
+     "freshness": 0.5766,
      "reliability": 0.8
     },
     "decision_score": 79,
@@ -10958,7 +10989,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -10980,13 +11011,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8567,
+     "score": 0.8553,
      "score_components": {
       "price": 1.0,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.5833,
+      "freshness": 0.5766,
       "reliability": 0.8
      },
      "decision_score": 79,
@@ -11011,13 +11042,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.8508,
+     "score": 0.8511,
      "score_components": {
-      "price": 0.9061,
+      "price": 0.9109,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.7183,
+      "freshness": 0.7116,
       "reliability": 0.8
      },
      "decision_score": 79,
@@ -11042,9 +11073,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.7523,
+     "score": 0.7527,
      "score_components": {
-      "price": 0.9779,
+      "price": 0.9791,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
@@ -11073,9 +11104,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.752,
+     "score": 0.7524,
      "score_components": {
-      "price": 0.977,
+      "price": 0.9782,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
@@ -11104,47 +11135,16 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7626,
+     "score": 0.7686,
      "score_components": {
-      "price": 0.5882,
+      "price": 0.6092,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.8434,
+      "freshness": 0.8367,
       "reliability": 0.8
      },
      "decision_score": 70,
-     "stars": 3,
-     "confidence": "High"
-    },
-    {
-     "price": 9102.0,
-     "currency": "TWD",
-     "route": "TPE-KIX",
-     "source": "google",
-     "stops": 0,
-     "duration": 150,
-     "airline": [
-      "GK"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2027-01-15",
-     "return_date": "2027-01-20",
-     "observed_at": "2026-10-18T10:54:03+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.7422,
-     "score_components": {
-      "price": 0.6414,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.58,
-      "freshness": 0.6486,
-      "reliability": 0.8
-     },
-     "decision_score": 69,
      "stars": 3,
      "confidence": "High"
     },
@@ -11166,9 +11166,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.7337,
+     "score": 0.735,
      "score_components": {
-      "price": 0.9248,
+      "price": 0.9286,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
@@ -11197,9 +11197,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7266,
+     "score": 0.7282,
      "score_components": {
-      "price": 0.9103,
+      "price": 0.9149,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
@@ -11211,7 +11211,7 @@
      "confidence": "High"
     },
     {
-     "price": 7713.0,
+     "price": 7711.0,
      "currency": "TWD",
      "route": "TPE-KIX",
      "source": "aviasales",
@@ -11224,17 +11224,17 @@
      "arrival_time": null,
      "depart_date": "2026-12-04",
      "return_date": "2026-12-09",
-     "observed_at": "2026-10-23T22:06:05+00:00",
+     "observed_at": "2026-10-24T00:36:47+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.8017,
+     "score": 0.8037,
      "score_components": {
-      "price": 0.8967,
+      "price": 0.9023,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.9994,
+      "freshness": 0.9993,
       "reliability": 0.55
      },
      "decision_score": 68,
@@ -11255,13 +11255,13 @@
      "arrival_time": null,
      "depart_date": "2027-01-08",
      "return_date": "2027-01-12",
-     "observed_at": "2026-10-23T22:06:06+00:00",
+     "observed_at": "2026-10-24T00:36:48+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7954,
+     "score": 0.7975,
      "score_components": {
-      "price": 0.8785,
+      "price": 0.8847,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -11271,6 +11271,37 @@
      "decision_score": 68,
      "stars": 3,
      "confidence": "Medium"
+    },
+    {
+     "price": 9102.0,
+     "currency": "TWD",
+     "route": "TPE-KIX",
+     "source": "google",
+     "stops": 0,
+     "duration": 150,
+     "airline": [
+      "GK"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-15",
+     "return_date": "2027-01-20",
+     "observed_at": "2026-10-18T10:54:03+00:00",
+     "link": "",
+     "provider": "serpapi",
+     "raw_quality_score": 0.85,
+     "score": 0.7472,
+     "score_components": {
+      "price": 0.6596,
+      "duration": 1.0,
+      "stops": 1.0,
+      "airline": 0.58,
+      "freshness": 0.6418,
+      "reliability": 0.8
+     },
+     "decision_score": 68,
+     "stars": 3,
+     "confidence": "High"
     },
     {
      "price": 7757.0,
@@ -11290,9 +11321,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.719,
+     "score": 0.721,
      "score_components": {
-      "price": 0.8886,
+      "price": 0.8943,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
@@ -11321,13 +11352,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7267,
+     "score": 0.7306,
      "score_components": {
-      "price": 0.7066,
+      "price": 0.7216,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.4568,
+      "freshness": 0.4501,
       "reliability": 0.8
      },
      "decision_score": 67,
@@ -11352,9 +11383,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7034,
+     "score": 0.7062,
      "score_components": {
-      "price": 0.8439,
+      "price": 0.8519,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
@@ -11383,9 +11414,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.7015,
+     "score": 0.7045,
      "score_components": {
-      "price": 0.8329,
+      "price": 0.8414,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
@@ -11397,7 +11428,7 @@
      "confidence": "High"
     },
     {
-     "price": 8245.0,
+     "price": 8243.0,
      "currency": "TWD",
      "route": "TPE-KIX",
      "source": "aviasales",
@@ -11410,17 +11441,17 @@
      "arrival_time": null,
      "depart_date": "2026-11-15",
      "return_date": "2026-11-19",
-     "observed_at": "2026-10-23T22:06:05+00:00",
+     "observed_at": "2026-10-24T00:36:47+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7645,
+     "score": 0.7682,
      "score_components": {
-      "price": 0.7989,
+      "price": 0.8095,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
-      "freshness": 0.9994,
+      "freshness": 0.9993,
       "reliability": 0.55
      },
      "decision_score": 65,
@@ -11441,17 +11472,17 @@
      "arrival_time": null,
      "depart_date": "2026-11-25",
      "return_date": "2026-12-03",
-     "observed_at": "2026-10-23T22:06:05+00:00",
+     "observed_at": "2026-10-24T00:36:47+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7647,
+     "score": 0.7685,
      "score_components": {
-      "price": 0.7853,
+      "price": 0.7962,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.9994,
+      "freshness": 0.9993,
       "reliability": 0.55
      },
      "decision_score": 65,
@@ -11476,13 +11507,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6953,
+     "score": 0.6976,
      "score_components": {
-      "price": 0.7947,
+      "price": 0.8051,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.5209,
+      "freshness": 0.5141,
       "reliability": 0.8
      },
      "decision_score": 64,
@@ -11507,13 +11538,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6882,
+     "score": 0.6914,
      "score_components": {
-      "price": 0.7415,
+      "price": 0.7547,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.2032,
+      "freshness": 0.1965,
       "reliability": 0.8
      },
      "decision_score": 64,
@@ -11538,9 +11569,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6835,
+     "score": 0.6874,
      "score_components": {
-      "price": 0.7814,
+      "price": 0.7926,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
@@ -11569,13 +11600,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6706,
+     "score": 0.6741,
      "score_components": {
-      "price": 0.7285,
+      "price": 0.7423,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.1382,
+      "freshness": 0.1315,
       "reliability": 0.8
      },
      "decision_score": 62,
@@ -11600,9 +11631,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.6634,
+     "score": 0.6683,
      "score_components": {
-      "price": 0.7241,
+      "price": 0.7381,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.6,
@@ -11614,7 +11645,7 @@
      "confidence": "High"
     },
     {
-     "price": 9209.0,
+     "price": 9207.0,
      "currency": "TWD",
      "route": "TPE-KIX",
      "source": "aviasales",
@@ -11627,17 +11658,17 @@
      "arrival_time": null,
      "depart_date": "2026-11-22",
      "return_date": "2026-11-30",
-     "observed_at": "2026-10-23T22:06:05+00:00",
+     "observed_at": "2026-10-24T00:36:47+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7055,
+     "score": 0.7123,
      "score_components": {
-      "price": 0.6217,
+      "price": 0.6413,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.9994,
+      "freshness": 0.9993,
       "reliability": 0.55
      },
      "decision_score": 59,
@@ -11662,9 +11693,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6475,
+     "score": 0.6479,
      "score_components": {
-      "price": 0.9787,
+      "price": 0.9798,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -11693,9 +11724,9 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.5982,
+     "score": 0.5987,
      "score_components": {
-      "price": 0.9719,
+      "price": 0.9733,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.58,
@@ -11724,9 +11755,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6467,
+     "score": 0.6473,
      "score_components": {
-      "price": 0.9678,
+      "price": 0.9695,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -11755,9 +11786,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6465,
+     "score": 0.6471,
      "score_components": {
-      "price": 0.9671,
+      "price": 0.9688,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -11767,37 +11798,6 @@
      "decision_score": 55,
      "stars": 2,
      "confidence": "Medium"
-    },
-    {
-     "price": 9697.0,
-     "currency": "TWD",
-     "route": "TPE-KIX",
-     "source": "google",
-     "stops": 0,
-     "duration": 150,
-     "airline": [
-      "GK"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-18",
-     "observed_at": "2026-09-29T12:40:48+00:00",
-     "link": "",
-     "provider": "serpapi",
-     "raw_quality_score": 0.85,
-     "score": 0.5942,
-     "score_components": {
-      "price": 0.532,
-      "duration": 1.0,
-      "stops": 1.0,
-      "airline": 0.58,
-      "freshness": 0.1,
-      "reliability": 0.8
-     },
-     "decision_score": 55,
-     "stars": 2,
-     "confidence": "High"
     },
     {
      "price": 7386.0,
@@ -11817,9 +11817,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6449,
+     "score": 0.6457,
      "score_components": {
-      "price": 0.9568,
+      "price": 0.959,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -11848,9 +11848,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.635,
+     "score": 0.6363,
      "score_components": {
-      "price": 0.9287,
+      "price": 0.9323,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -11879,9 +11879,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6274,
+     "score": 0.629,
      "score_components": {
-      "price": 0.9068,
+      "price": 0.9115,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -11910,9 +11910,9 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.5733,
+     "score": 0.5828,
      "score_components": {
-      "price": 0.4724,
+      "price": 0.4993,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.58,
@@ -11941,9 +11941,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6182,
+     "score": 0.6202,
      "score_components": {
-      "price": 0.8862,
+      "price": 0.892,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -11972,9 +11972,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5943,
+     "score": 0.5974,
      "score_components": {
-      "price": 0.8265,
+      "price": 0.8353,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -12003,9 +12003,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5974,
+     "score": 0.6006,
      "score_components": {
-      "price": 0.8211,
+      "price": 0.8303,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -12030,13 +12030,13 @@
      "arrival_time": null,
      "depart_date": "2027-01-18",
      "return_date": "2027-01-25",
-     "observed_at": "2026-10-23T22:06:06+00:00",
+     "observed_at": "2026-10-24T00:36:48+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.6132,
+     "score": 0.6247,
      "score_components": {
-      "price": 0.3581,
+      "price": 0.3908,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12065,9 +12065,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5884,
+     "score": 0.5918,
      "score_components": {
-      "price": 0.8097,
+      "price": 0.8194,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -12096,9 +12096,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5866,
+     "score": 0.5902,
      "score_components": {
-      "price": 0.796,
+      "price": 0.8064,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12127,9 +12127,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5858,
+     "score": 0.5895,
      "score_components": {
-      "price": 0.7937,
+      "price": 0.8043,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12158,9 +12158,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5827,
+     "score": 0.5866,
      "score_components": {
-      "price": 0.7849,
+      "price": 0.7959,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12189,9 +12189,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5797,
+     "score": 0.5835,
      "score_components": {
-      "price": 0.7847,
+      "price": 0.7957,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -12220,9 +12220,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5778,
+     "score": 0.5817,
      "score_components": {
-      "price": 0.7794,
+      "price": 0.7906,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -12251,9 +12251,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5795,
+     "score": 0.5835,
      "score_components": {
-      "price": 0.7757,
+      "price": 0.7872,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12282,9 +12282,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5735,
+     "score": 0.5776,
      "score_components": {
-      "price": 0.7671,
+      "price": 0.779,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -12313,9 +12313,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5725,
+     "score": 0.577,
      "score_components": {
-      "price": 0.75,
+      "price": 0.7627,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -12344,9 +12344,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5675,
+     "score": 0.5721,
      "score_components": {
-      "price": 0.7414,
+      "price": 0.7545,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12375,9 +12375,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5647,
+     "score": 0.5695,
      "score_components": {
-      "price": 0.7335,
+      "price": 0.747,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12406,9 +12406,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5511,
+     "score": 0.5565,
      "score_components": {
-      "price": 0.6945,
+      "price": 0.71,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12437,9 +12437,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.548,
+     "score": 0.5536,
      "score_components": {
-      "price": 0.6857,
+      "price": 0.7017,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12468,9 +12468,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5391,
+     "score": 0.5452,
      "score_components": {
-      "price": 0.6603,
+      "price": 0.6776,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12499,9 +12499,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5379,
+     "score": 0.544,
      "score_components": {
-      "price": 0.6568,
+      "price": 0.6743,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12530,9 +12530,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5362,
+     "score": 0.5424,
      "score_components": {
-      "price": 0.652,
+      "price": 0.6697,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12561,9 +12561,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5396,
+     "score": 0.546,
      "score_components": {
-      "price": 0.6417,
+      "price": 0.66,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.65,
@@ -12592,9 +12592,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5293,
+     "score": 0.5357,
      "score_components": {
-      "price": 0.6408,
+      "price": 0.6591,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.55,
@@ -12623,9 +12623,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5302,
+     "score": 0.5367,
      "score_components": {
-      "price": 0.6349,
+      "price": 0.6535,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12654,9 +12654,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5122,
+     "score": 0.5196,
      "score_components": {
-      "price": 0.5835,
+      "price": 0.6047,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12685,9 +12685,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.514,
+     "score": 0.5214,
      "score_components": {
-      "price": 0.5827,
+      "price": 0.604,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -12716,9 +12716,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.508,
+     "score": 0.5156,
      "score_components": {
-      "price": 0.5713,
+      "price": 0.5932,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12747,9 +12747,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4976,
+     "score": 0.5058,
      "score_components": {
-      "price": 0.5417,
+      "price": 0.5651,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12778,9 +12778,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4818,
+     "score": 0.4908,
      "score_components": {
-      "price": 0.4967,
+      "price": 0.5223,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12809,9 +12809,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4367,
+     "score": 0.448,
      "score_components": {
-      "price": 0.3678,
+      "price": 0.4,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12840,9 +12840,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.4244,
+     "score": 0.4365,
      "score_components": {
-      "price": 0.3211,
+      "price": 0.3557,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
@@ -12871,9 +12871,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.3854,
+     "score": 0.3993,
      "score_components": {
-      "price": 0.2211,
+      "price": 0.2608,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12902,9 +12902,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.3673,
+     "score": 0.3822,
      "score_components": {
-      "price": 0.1636,
+      "price": 0.2062,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -12933,9 +12933,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.3196,
+     "score": 0.3368,
      "score_components": {
-      "price": 0.0331,
+      "price": 0.0823,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12964,9 +12964,9 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.3124,
+     "score": 0.33,
      "score_components": {
-      "price": 0.0127,
+      "price": 0.063,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
@@ -12995,6 +12995,37 @@
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
+     "score": 0.3258,
+     "score_components": {
+      "price": 0.0509,
+      "duration": 0.5,
+      "stops": 1.0,
+      "airline": 0.58,
+      "freshness": 0.1,
+      "reliability": 0.55
+     },
+     "decision_score": 26,
+     "stars": 1,
+     "confidence": "Medium"
+    },
+    {
+     "price": 12883.0,
+     "currency": "TWD",
+     "route": "TPE-KIX",
+     "source": "aviasales",
+     "stops": 0,
+     "duration": null,
+     "airline": [
+      "GK"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-22",
+     "return_date": "2027-01-26",
+     "observed_at": "2026-10-21T12:17:42+00:00",
+     "link": "",
+     "provider": "travelpayouts",
+     "raw_quality_score": 0.7,
      "score": 0.308,
      "score_components": {
       "price": 0.0,
@@ -13018,7 +13049,7 @@
    "route_stats": {
     "min": 10398.0,
     "median": 11860.0,
-    "n": 40
+    "n": 41
    },
    "best_option": {
     "price": 10926.0,
@@ -13057,7 +13088,7 @@
     },
     "stars": 2,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 8%（價格 82）、直飛、飛行時間資料累積中、資料31 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 59、信心 Medium。",
+    "explanation": "比中位價便宜 8%（價格 82）、直飛、飛行時間資料累積中、資料33 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 59、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -13065,7 +13096,7 @@
      "depart_date": "2026-12-01",
      "return_date": "2026-12-05",
      "observed_at": "2026-10-22T15:09:29+00:00",
-     "observed_age": "31 小時前",
+     "observed_age": "33 小時前",
      "ranking_rule": "FIE v1 · BEST · 綜合最高分",
      "weights": {
       "price": 0.4,
@@ -13074,7 +13105,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -13114,7 +13145,7 @@
     },
     "stars": 2,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 8%（價格 82）、直飛、飛行時間資料累積中、資料31 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 59、信心 Medium。",
+    "explanation": "比中位價便宜 8%（價格 82）、直飛、飛行時間資料累積中、資料33 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 59、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -13122,7 +13153,7 @@
      "depart_date": "2026-12-01",
      "return_date": "2026-12-05",
      "observed_at": "2026-10-22T15:09:29+00:00",
-     "observed_age": "31 小時前",
+     "observed_age": "33 小時前",
      "ranking_rule": "FIE v1 · VALUE · 高CP值",
      "weights": {
       "price": 0.4,
@@ -13131,7 +13162,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": null,
@@ -13172,7 +13203,7 @@
     },
     "stars": 2,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 8%（價格 82）、直飛、飛行時間資料累積中、資料31 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 59、信心 Medium。",
+    "explanation": "比中位價便宜 8%（價格 82）、直飛、飛行時間資料累積中、資料33 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 59、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -13180,7 +13211,7 @@
      "depart_date": "2026-12-01",
      "return_date": "2026-12-05",
      "observed_at": "2026-10-22T15:09:29+00:00",
-     "observed_age": "31 小時前",
+     "observed_age": "33 小時前",
      "ranking_rule": "FIE v1 · CHEAPEST · 價格最低",
      "weights": {
       "price": 0.4,
@@ -13189,7 +13220,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -13300,7 +13331,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-25",
      "return_date": "2026-12-29",
-     "observed_at": "2026-10-23T22:06:11+00:00",
+     "observed_at": "2026-10-24T00:36:53+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -13389,7 +13420,7 @@
    "route_stats": {
     "min": 8615.0,
     "median": 16023.0,
-    "n": 115
+    "n": 124
    },
    "best_option": {
     "price": 11982.0,
@@ -13405,7 +13436,7 @@
     "arrival_time": null,
     "depart_date": "2027-01-10",
     "return_date": "2027-01-17",
-    "observed_at": "2026-10-23T22:06:02+00:00",
+    "observed_at": "2026-10-24T00:36:44+00:00",
     "link": "",
     "provider": "travelpayouts",
     "raw_quality_score": 0.7,
@@ -13415,7 +13446,7 @@
      "duration": 0.5,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.9993,
+     "freshness": 0.9992,
      "reliability": 0.55
     },
     "decision_score": 73,
@@ -13435,7 +13466,7 @@
      "provider": "travelpayouts",
      "depart_date": "2027-01-10",
      "return_date": "2027-01-17",
-     "observed_at": "2026-10-23T22:06:02+00:00",
+     "observed_at": "2026-10-24T00:36:44+00:00",
      "observed_age": "1 分鐘前",
      "ranking_rule": "FIE v1 · BEST · 綜合最高分",
      "weights": {
@@ -13445,7 +13476,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "value_option": {
@@ -13485,7 +13516,7 @@
     },
     "stars": 3,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 46%，屬近期低點（價格 100）、直飛、飛行時間資料累積中、資料47 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 66、信心 Medium。",
+    "explanation": "比中位價便宜 46%，屬近期低點（價格 100）、直飛、飛行時間資料累積中、資料2 天前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 66、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -13493,7 +13524,7 @@
      "depart_date": "2026-12-16",
      "return_date": "2026-12-20",
      "observed_at": "2026-10-21T23:13:11+00:00",
-     "observed_age": "47 小時前",
+     "observed_age": "2 天前",
      "ranking_rule": "FIE v1 · VALUE · 高CP值",
      "weights": {
       "price": 0.4,
@@ -13502,7 +13533,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "fastest_option": null,
@@ -13543,7 +13574,7 @@
     },
     "stars": 3,
     "confidence": "Medium",
-    "explanation": "比中位價便宜 46%，屬近期低點（價格 100）、直飛、飛行時間資料累積中、資料47 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 66、信心 Medium。",
+    "explanation": "比中位價便宜 46%，屬近期低點（價格 100）、直飛、飛行時間資料累積中、資料2 天前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 66、信心 Medium。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -13551,7 +13582,7 @@
      "depart_date": "2026-12-16",
      "return_date": "2026-12-20",
      "observed_at": "2026-10-21T23:13:11+00:00",
-     "observed_age": "47 小時前",
+     "observed_age": "2 天前",
      "ranking_rule": "FIE v1 · CHEAPEST · 價格最低",
      "weights": {
       "price": 0.4,
@@ -13560,7 +13591,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:19+00:00"
+     "decided_at": "2026-10-24T00:37:02+00:00"
     }
    },
    "ranked_results": [
@@ -13578,7 +13609,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-10",
      "return_date": "2027-01-17",
-     "observed_at": "2026-10-23T22:06:02+00:00",
+     "observed_at": "2026-10-24T00:36:44+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -13588,7 +13619,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.9993,
+      "freshness": 0.9992,
       "reliability": 0.55
      },
      "decision_score": 73,
@@ -13609,7 +13640,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-25",
      "return_date": "2027-01-15",
-     "observed_at": "2026-10-23T22:06:02+00:00",
+     "observed_at": "2026-10-24T00:36:44+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -13619,7 +13650,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.9993,
+      "freshness": 0.9992,
       "reliability": 0.55
      },
      "decision_score": 69,
@@ -13733,17 +13764,17 @@
      "arrival_time": null,
      "depart_date": "2027-01-16",
      "return_date": "2027-01-21",
-     "observed_at": "2026-10-23T22:06:02+00:00",
+     "observed_at": "2026-10-24T00:36:44+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.5249,
+     "score": 0.5248,
      "score_components": {
       "price": 0.0,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.95,
-      "freshness": 0.9993,
+      "freshness": 0.9992,
       "reliability": 0.55
      },
      "decision_score": 62,
@@ -13791,7 +13822,7 @@
    "route_stats": {
     "min": 5612.0,
     "median": 9638.0,
-    "n": 115162
+    "n": 115202
    },
    "best_option": {
     "price": 8823.0,
@@ -13811,26 +13842,26 @@
     "link": "",
     "provider": "scrapedo",
     "raw_quality_score": 0.85,
-    "score": 0.862,
+    "score": 0.8606,
     "score_components": {
      "price": 0.9304,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.7217,
+     "freshness": 0.7149,
      "reliability": 0.8
     },
     "decision_score": 76,
     "subscores": {
      "price": 60,
-     "freshness": 72,
+     "freshness": 71,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 94
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 8%（價格 60）、直飛、飛行 3h00m（時間 100）、資料4 天前由 Google Flights (Scrape.do) 更新（新鮮度 72、來源可信度 80）。綜合決策分 76、信心 High。",
+    "explanation": "比中位價便宜 8%（價格 60）、直飛、飛行 3h00m（時間 100）、資料4 天前由 Google Flights (Scrape.do) 更新（新鮮度 71、來源可信度 80）。綜合決策分 76、信心 High。",
     "provenance": {
      "api": "Google Flights (Scrape.do)",
      "source": "google",
@@ -13847,7 +13878,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:20+00:00"
+     "decided_at": "2026-10-24T00:37:03+00:00"
     }
    },
    "value_option": {
@@ -13868,26 +13899,26 @@
     "link": "",
     "provider": "scrapedo",
     "raw_quality_score": 0.85,
-    "score": 0.862,
+    "score": 0.8606,
     "score_components": {
      "price": 0.9304,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.7217,
+     "freshness": 0.7149,
      "reliability": 0.8
     },
     "decision_score": 76,
     "subscores": {
      "price": 60,
-     "freshness": 72,
+     "freshness": 71,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 94
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 8%（價格 60）、直飛、飛行 3h00m（時間 100）、資料4 天前由 Google Flights (Scrape.do) 更新（新鮮度 72、來源可信度 80）。綜合決策分 76、信心 High。",
+    "explanation": "比中位價便宜 8%（價格 60）、直飛、飛行 3h00m（時間 100）、資料4 天前由 Google Flights (Scrape.do) 更新（新鮮度 71、來源可信度 80）。綜合決策分 76、信心 High。",
     "provenance": {
      "api": "Google Flights (Scrape.do)",
      "source": "google",
@@ -13904,7 +13935,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:20+00:00"
+     "decided_at": "2026-10-24T00:37:03+00:00"
     }
    },
    "fastest_option": {
@@ -13925,26 +13956,26 @@
     "link": "",
     "provider": "scrapedo",
     "raw_quality_score": 0.85,
-    "score": 0.862,
+    "score": 0.8606,
     "score_components": {
      "price": 0.9304,
      "duration": 1.0,
      "stops": 1.0,
      "airline": 0.62,
-     "freshness": 0.7217,
+     "freshness": 0.7149,
      "reliability": 0.8
     },
     "decision_score": 76,
     "subscores": {
      "price": 60,
-     "freshness": 72,
+     "freshness": 71,
      "duration": 100,
      "source_reliability": 80,
      "confidence": 94
     },
     "stars": 4,
     "confidence": "High",
-    "explanation": "比中位價便宜 8%（價格 60）、直飛、飛行 3h00m（時間 100）、資料4 天前由 Google Flights (Scrape.do) 更新（新鮮度 72、來源可信度 80）。綜合決策分 76、信心 High。",
+    "explanation": "比中位價便宜 8%（價格 60）、直飛、飛行 3h00m（時間 100）、資料4 天前由 Google Flights (Scrape.do) 更新（新鮮度 71、來源可信度 80）。綜合決策分 76、信心 High。",
     "provenance": {
      "api": "Google Flights (Scrape.do)",
      "source": "google",
@@ -13961,7 +13992,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:20+00:00"
+     "decided_at": "2026-10-24T00:37:03+00:00"
     }
    },
    "cheapest_option": {
@@ -14018,7 +14049,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:20+00:00"
+     "decided_at": "2026-10-24T00:37:03+00:00"
     }
    },
    "ranked_results": [
@@ -14040,13 +14071,13 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.862,
+     "score": 0.8606,
      "score_components": {
       "price": 0.9304,
       "duration": 1.0,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.7217,
+      "freshness": 0.7149,
       "reliability": 0.8
      },
      "decision_score": 76,
@@ -14067,7 +14098,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-09",
      "return_date": "2026-12-16",
-     "observed_at": "2026-10-23T22:05:51+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14085,7 +14116,7 @@
      "confidence": "Medium"
     },
     {
-     "price": 9028.0,
+     "price": 9027.0,
      "currency": "TWD",
      "route": "TPE-NRT",
      "source": "aviasales",
@@ -14098,7 +14129,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-14",
      "return_date": "2026-11-18",
-     "observed_at": "2026-10-23T22:05:50+00:00",
+     "observed_at": "2026-10-24T00:36:34+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14108,7 +14139,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.9987,
+      "freshness": 0.9988,
       "reliability": 0.55
      },
      "decision_score": 65,
@@ -14129,7 +14160,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-02",
      "return_date": "2026-12-09",
-     "observed_at": "2026-10-23T22:05:51+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14160,7 +14191,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-05",
      "return_date": "2026-12-13",
-     "observed_at": "2026-10-23T22:05:51+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14209,6 +14240,37 @@
      "confidence": "High"
     },
     {
+     "price": 9941.0,
+     "currency": "TWD",
+     "route": "TPE-NRT",
+     "source": "aviasales",
+     "stops": 0,
+     "duration": null,
+     "airline": [
+      "GK"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2026-11-22",
+     "return_date": "2026-11-24",
+     "observed_at": "2026-10-24T00:36:34+00:00",
+     "link": "",
+     "provider": "travelpayouts",
+     "raw_quality_score": 0.7,
+     "score": 0.7883,
+     "score_components": {
+      "price": 0.8587,
+      "duration": 0.5,
+      "stops": 1.0,
+      "airline": 0.58,
+      "freshness": 0.9988,
+      "reliability": 0.55
+     },
+     "decision_score": 60,
+     "stars": 3,
+     "confidence": "Medium"
+    },
+    {
      "price": 10086.0,
      "currency": "TWD",
      "route": "TPE-NRT",
@@ -14222,17 +14284,17 @@
      "arrival_time": null,
      "depart_date": "2026-11-26",
      "return_date": "2026-11-29",
-     "observed_at": "2026-10-23T22:05:50+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.789,
+     "score": 0.7891,
      "score_components": {
       "price": 0.8495,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.9987,
+      "freshness": 0.9988,
       "reliability": 0.55
      },
      "decision_score": 60,
@@ -14257,13 +14319,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.7257,
+     "score": 0.7243,
      "score_components": {
       "price": 0.8409,
       "duration": 0.6667,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.4568,
+      "freshness": 0.4501,
       "reliability": 0.8
      },
      "decision_score": 59,
@@ -14284,7 +14346,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-24",
      "return_date": "2027-01-06",
-     "observed_at": "2026-10-23T22:05:51+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14319,13 +14381,13 @@
      "link": "",
      "provider": "scrapedo",
      "raw_quality_score": 0.85,
-     "score": 0.7325,
+     "score": 0.7311,
      "score_components": {
       "price": 0.8225,
       "duration": 0.6667,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.523,
+      "freshness": 0.5163,
       "reliability": 0.8
      },
      "decision_score": 59,
@@ -14346,7 +14408,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-25",
      "return_date": "2027-01-06",
-     "observed_at": "2026-10-23T22:05:51+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14377,7 +14439,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-24",
      "return_date": "2026-11-29",
-     "observed_at": "2026-10-23T22:05:50+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14387,7 +14449,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.62,
-      "freshness": 0.9987,
+      "freshness": 0.9988,
       "reliability": 0.55
      },
      "decision_score": 56,
@@ -14457,7 +14519,7 @@
      "confidence": "Medium"
     },
     {
-     "price": 11119.0,
+     "price": 11117.0,
      "currency": "TWD",
      "route": "TPE-NRT",
      "source": "aviasales",
@@ -14470,13 +14532,13 @@
      "arrival_time": null,
      "depart_date": "2026-12-12",
      "return_date": "2026-12-22",
-     "observed_at": "2026-10-23T22:05:51+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
      "score": 0.7639,
      "score_components": {
-      "price": 0.7832,
+      "price": 0.7834,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
@@ -14532,7 +14594,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-29",
      "return_date": "2026-12-04",
-     "observed_at": "2026-10-23T22:05:50+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14542,7 +14604,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.9987,
+      "freshness": 0.9988,
       "reliability": 0.55
      },
      "decision_score": 54,
@@ -14629,13 +14691,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.6583,
+     "score": 0.657,
      "score_components": {
       "price": 0.8389,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.55,
-      "freshness": 0.6486,
+      "freshness": 0.6418,
       "reliability": 0.8
      },
      "decision_score": 53,
@@ -14656,7 +14718,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-13",
      "return_date": "2027-01-17",
-     "observed_at": "2026-10-23T22:05:52+00:00",
+     "observed_at": "2026-10-24T00:36:36+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14666,7 +14728,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.9988,
+      "freshness": 0.9989,
       "reliability": 0.55
      },
      "decision_score": 53,
@@ -14674,7 +14736,7 @@
      "confidence": "Medium"
     },
     {
-     "price": 11503.0,
+     "price": 11500.0,
      "currency": "TWD",
      "route": "TPE-NRT",
      "source": "aviasales",
@@ -14687,17 +14749,17 @@
      "arrival_time": null,
      "depart_date": "2027-01-01",
      "return_date": "2027-01-05",
-     "observed_at": "2026-10-23T22:05:52+00:00",
+     "observed_at": "2026-10-24T00:36:36+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
-     "score": 0.7553,
+     "score": 0.7554,
      "score_components": {
-      "price": 0.7586,
+      "price": 0.7588,
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.9988,
+      "freshness": 0.9989,
       "reliability": 0.55
      },
      "decision_score": 53,
@@ -14732,68 +14794,6 @@
       "reliability": 0.55
      },
      "decision_score": 52,
-     "stars": 2,
-     "confidence": "Medium"
-    },
-    {
-     "price": 8517.0,
-     "currency": "TWD",
-     "route": "TPE-NRT",
-     "source": "aviasales",
-     "stops": 0,
-     "duration": null,
-     "airline": [
-      "TR"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-22",
-     "return_date": "2026-11-26",
-     "observed_at": "2026-08-20T13:17:25+00:00",
-     "link": "",
-     "provider": "travelpayouts",
-     "raw_quality_score": 0.7,
-     "score": 0.6425,
-     "score_components": {
-      "price": 0.95,
-      "duration": 0.5,
-      "stops": 1.0,
-      "airline": 0.6,
-      "freshness": 0.1,
-      "reliability": 0.55
-     },
-     "decision_score": 51,
-     "stars": 2,
-     "confidence": "Medium"
-    },
-    {
-     "price": 8537.0,
-     "currency": "TWD",
-     "route": "TPE-NRT",
-     "source": "aviasales",
-     "stops": 0,
-     "duration": null,
-     "airline": [
-      "GK"
-     ],
-     "departure_time": null,
-     "arrival_time": null,
-     "depart_date": "2026-11-13",
-     "return_date": "2026-11-17",
-     "observed_at": "2026-10-01T06:17:57+00:00",
-     "link": "",
-     "provider": "travelpayouts",
-     "raw_quality_score": 0.7,
-     "score": 0.6401,
-     "score_components": {
-      "price": 0.9487,
-      "duration": 0.5,
-      "stops": 1.0,
-      "airline": 0.58,
-      "freshness": 0.1,
-      "reliability": 0.55
-     },
-     "decision_score": 51,
      "stars": 2,
      "confidence": "Medium"
     },
@@ -14842,7 +14842,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-04",
      "return_date": "2027-01-08",
-     "observed_at": "2026-10-23T22:05:52+00:00",
+     "observed_at": "2026-10-24T00:36:36+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14852,7 +14852,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.58,
-      "freshness": 0.9988,
+      "freshness": 0.9989,
       "reliability": 0.55
      },
      "decision_score": 51,
@@ -14935,7 +14935,7 @@
      "arrival_time": null,
      "depart_date": "2026-11-28",
      "return_date": "2026-12-04",
-     "observed_at": "2026-10-23T22:05:50+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -14945,7 +14945,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.9987,
+      "freshness": 0.9988,
       "reliability": 0.55
      },
      "decision_score": 50,
@@ -15214,7 +15214,7 @@
      "arrival_time": null,
      "depart_date": "2026-12-29",
      "return_date": "2027-01-03",
-     "observed_at": "2026-10-23T22:05:51+00:00",
+     "observed_at": "2026-10-24T00:36:35+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -15276,7 +15276,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-12",
      "return_date": "2027-01-22",
-     "observed_at": "2026-10-23T22:05:52+00:00",
+     "observed_at": "2026-10-24T00:36:36+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -15286,7 +15286,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.6,
-      "freshness": 0.9988,
+      "freshness": 0.9989,
       "reliability": 0.55
      },
      "decision_score": 45,
@@ -15400,7 +15400,7 @@
      "arrival_time": null,
      "depart_date": "2027-01-21",
      "return_date": "2027-02-08",
-     "observed_at": "2026-10-23T22:05:52+00:00",
+     "observed_at": "2026-10-24T00:36:36+00:00",
      "link": "",
      "provider": "travelpayouts",
      "raw_quality_score": 0.7,
@@ -15410,7 +15410,7 @@
       "duration": 0.5,
       "stops": 1.0,
       "airline": 0.9,
-      "freshness": 0.9988,
+      "freshness": 0.9989,
       "reliability": 0.55
      },
      "decision_score": 42,
@@ -15497,13 +15497,13 @@
      "link": "",
      "provider": "serpapi",
      "raw_quality_score": 0.85,
-     "score": 0.5922,
+     "score": 0.5909,
      "score_components": {
       "price": 0.6873,
       "duration": 0.0,
       "stops": 1.0,
       "airline": 0.55,
-      "freshness": 0.5833,
+      "freshness": 0.5766,
       "reliability": 0.8
      },
      "decision_score": 40,
@@ -16160,6 +16160,37 @@
      "decision_score": 26,
      "stars": 1,
      "confidence": "Medium"
+    },
+    {
+     "price": 18378.0,
+     "currency": "TWD",
+     "route": "TPE-NRT",
+     "source": "aviasales",
+     "stops": 0,
+     "duration": null,
+     "airline": [
+      "MM"
+     ],
+     "departure_time": null,
+     "arrival_time": null,
+     "depart_date": "2027-01-22",
+     "return_date": "2027-02-04",
+     "observed_at": "2026-10-15T15:17:35+00:00",
+     "link": "",
+     "provider": "travelpayouts",
+     "raw_quality_score": 0.7,
+     "score": 0.4213,
+     "score_components": {
+      "price": 0.318,
+      "duration": 0.5,
+      "stops": 1.0,
+      "airline": 0.6,
+      "freshness": 0.1,
+      "reliability": 0.55
+     },
+     "decision_score": 26,
+     "stars": 1,
+     "confidence": "Medium"
     }
    ]
   },
@@ -16210,7 +16241,7 @@
     },
     "stars": 3,
     "confidence": "Low",
-    "explanation": "約在中位價（價格 100）、直飛、飛行時間資料累積中、資料31 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 64、信心 Low。",
+    "explanation": "約在中位價（價格 100）、直飛、飛行時間資料累積中、資料33 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 64、信心 Low。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -16218,7 +16249,7 @@
      "depart_date": "2026-12-14",
      "return_date": "2026-12-18",
      "observed_at": "2026-10-22T15:09:31+00:00",
-     "observed_age": "31 小時前",
+     "observed_age": "33 小時前",
      "ranking_rule": "FIE v1 · BEST · 綜合最高分",
      "weights": {
       "price": 0.4,
@@ -16227,7 +16258,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:20+00:00"
+     "decided_at": "2026-10-24T00:37:03+00:00"
     }
    },
    "value_option": {
@@ -16267,7 +16298,7 @@
     },
     "stars": 3,
     "confidence": "Low",
-    "explanation": "約在中位價（價格 100）、直飛、飛行時間資料累積中、資料31 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 64、信心 Low。",
+    "explanation": "約在中位價（價格 100）、直飛、飛行時間資料累積中、資料33 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 64、信心 Low。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -16275,7 +16306,7 @@
      "depart_date": "2026-12-14",
      "return_date": "2026-12-18",
      "observed_at": "2026-10-22T15:09:31+00:00",
-     "observed_age": "31 小時前",
+     "observed_age": "33 小時前",
      "ranking_rule": "FIE v1 · VALUE · 高CP值",
      "weights": {
       "price": 0.4,
@@ -16284,7 +16315,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:20+00:00"
+     "decided_at": "2026-10-24T00:37:03+00:00"
     }
    },
    "fastest_option": null,
@@ -16325,7 +16356,7 @@
     },
     "stars": 3,
     "confidence": "Low",
-    "explanation": "約在中位價（價格 100）、直飛、飛行時間資料累積中、資料31 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 64、信心 Low。",
+    "explanation": "約在中位價（價格 100）、直飛、飛行時間資料累積中、資料33 小時前由 Travelpayouts / Aviasales 快取 更新（新鮮度 10、來源可信度 55）。綜合決策分 64、信心 Low。",
     "provenance": {
      "api": "Travelpayouts / Aviasales 快取",
      "source": "aviasales",
@@ -16333,7 +16364,7 @@
      "depart_date": "2026-12-14",
      "return_date": "2026-12-18",
      "observed_at": "2026-10-22T15:09:31+00:00",
-     "observed_age": "31 小時前",
+     "observed_age": "33 小時前",
      "ranking_rule": "FIE v1 · CHEAPEST · 價格最低",
      "weights": {
       "price": 0.4,
@@ -16342,7 +16373,7 @@
       "source_reliability": 0.15,
       "confidence": 0.15
      },
-     "decided_at": "2026-10-23T22:06:20+00:00"
+     "decided_at": "2026-10-24T00:37:03+00:00"
     }
    },
    "ranked_results": [
